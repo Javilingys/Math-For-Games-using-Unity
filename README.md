@@ -15,7 +15,7 @@ The formula are:
 
 ## 2. Bitwise Operations
 
-![basicbitwice](hhttps://sun4-16.userapi.com/JPocCvFKrA0U5d5bIcDdVwtL9CSB-eY2RdbsSg/zxkE-4anhAQ.jpg "basicbitwise")
+![basicbitwice](https://sun4-16.userapi.com/JPocCvFKrA0U5d5bIcDdVwtL9CSB-eY2RdbsSg/zxkE-4anhAQ.jpg "basicbitwise")
 
 * Example of use this:
 
