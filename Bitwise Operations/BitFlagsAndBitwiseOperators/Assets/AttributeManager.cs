@@ -6,13 +6,41 @@ using UnityEngine.UI;
 
 public class AttributeManager : MonoBehaviour
 {
+    static public int MAGIC = 16;
+    static public int INTELLIGENCE = 8;
+    static public int CHARISMA = 4;
+    static public int FLY = 2;
+    static public int INVISIBLE = 1;
+
     public Text attributeDisplay;
     int attributes = 0;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        switch (other.gameObject.tag)
+        {
+            case "MAGIC":
+                attributes |= MAGIC;
+                break;
+            case "INTELLIGENCE":
+                attributes |= INTELLIGENCE;
+                break;
+            case "CHARISMA":
+                attributes |= CHARISMA;
+                break;
+            case "FLY":
+                attributes |= FLY;
+                break;
+            case "INVISIBLE":
+                attributes |= INVISIBLE;
+                break;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
