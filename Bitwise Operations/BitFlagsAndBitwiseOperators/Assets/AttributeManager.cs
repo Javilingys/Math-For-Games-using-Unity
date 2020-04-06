@@ -34,6 +34,30 @@ public class AttributeManager : MonoBehaviour
             case "INVISIBLE":
                 attributes |= INVISIBLE;
                 break;
+            case "ANTIMAGIC":
+                attributes &= ~MAGIC;
+                break;
+            case "ANTIINTELLIGENCE":
+                attributes &= ~INTELLIGENCE;
+                break;
+            case "ANTICHARISMA":
+                attributes &= ~CHARISMA;
+                break;
+            case "ANTIFLY":
+                attributes &= ~FLY;
+                break;
+            case "ANTIINVISIBLE":
+                attributes &= ~INVISIBLE;
+                break;
+            case "REMOVE":
+                attributes &= ~(INTELLIGENCE | MAGIC);
+                break;
+            case "ADD":
+                attributes |= (INTELLIGENCE | MAGIC | CHARISMA);
+                break;
+            case "RESET":
+                attributes = 0;
+                break;
         }
     }
 
