@@ -29,4 +29,16 @@ For example: We have a three values **A = 1001111**, **B = 10110**, **C = 0011**
 
 ![packingA](https://sun4-17.userapi.com/STqp1hhtfzqy_0mij5I8KWP3hPyF0kLUlrEE-A/iiBq10tBORU.jpg "packingA")
 
+* B = 10110 packing into 16-bit X Value:
+
+![packingB](https://sun4-15.userapi.com/3hvpC61qV_9KHOgFXMegRNpwaW_7gZAjIdIqJw/dVjc-EhOypU.jpg "packingB")
+
+* C = 0011 packing into 16-bit X value:
+
+![packingC](https://sun4-16.userapi.com/4GYWu32MPRX5plED8mIXmg8CEPmEnl5_weYqSg/sc4uZAxkxcs.jpg "packingC")
+
+* Another Example: put three values into INTEGER (32-bit value):
+
+![packingInt](https://sun4-10.userapi.com/QxN1ilg4--XRv4T1GwViz9J2tebRdpJNnCdOjA/vRNUMu5zqO0.jpg "packingInt")
+
 ### Bit UnPacking
