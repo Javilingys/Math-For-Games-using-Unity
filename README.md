@@ -42,3 +42,19 @@ For example: We have a three values **A = 1001111**, **B = 10110**, **C = 0011**
 ![packingInt](https://sun4-10.userapi.com/QxN1ilg4--XRv4T1GwViz9J2tebRdpJNnCdOjA/vRNUMu5zqO0.jpg "packingInt")
 
 ### Bit UnPacking
+
+For unpacking bits we need create a mask that will get all of the you're interested in for each value, and shifting to right. Example:
+
+* UnPack to A(7-bit) from X(16-bit):
+
+![UnpackingA](https://sun4-17.userapi.com/vA4TGqxo5DL1DOE_5-GXUws0HwgLicJFKPIZTg/C3-OsBEjuuE.jpg "UnpackingA")
+
+![UnpackingA2](https://sun4-17.userapi.com/K__FqKGX7v0f7wo_Xyg58TuyNeCxZC_4mmGF-g/dx02AhC7x9U.jpg "UnpackingA2")
+
+* UnPack to B(5-bit) from X(16-bit):
+
+![packingB](https://sun4-10.userapi.com/ONdpd0iVbubqtPMGHQM9u9POLP1NzpPCuP8aBw/SU5YYTRMWxI.jpg "packingB")
+
+* UnPack to C(4-bit) from X(16-bit):
+
+![packingC](https://sun4-17.userapi.com/rU09mIrHj4Av37fLyh7g0wHDz3DxyugGs4OKqg/QOJjX6T9v20.jpg "packingC")
