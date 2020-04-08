@@ -20,3 +20,5 @@ The formula are:
 * Example of use this:
 
 ![example1](https://sun9-55.userapi.com/wAFSCJheGi387c-jD0j5yQbdsTVn7BRCeSLWmA/8kxb97G7-Lc.jpg "example1")
+
+### Bit Packing
