@@ -58,3 +58,7 @@ For unpacking bits we need create a mask that will get all of the you're interes
 * UnPack to C(4-bit) from X(16-bit):
 
 ![packingC](https://sun4-17.userapi.com/rU09mIrHj4Av37fLyh7g0wHDz3DxyugGs4OKqg/QOJjX6T9v20.jpg "packingC")
+
+* If you need to Toggling of Bits, you need use **XOR (^)** operation
+
+![togglinXOR])https://sun4-17.userapi.com/WGr1CdaMistavHrQK9Fcmb7sEA2l2VmdS5idMw/QEM96hJae7A.jpg "togglingXOR")
