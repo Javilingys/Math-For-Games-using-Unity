@@ -61,4 +61,4 @@ For unpacking bits we need create a mask that will get all of the you're interes
 
 * If you need to Toggling of Bits, you need use **XOR (^)** operation
 
-![togglinXOR])https://sun4-17.userapi.com/WGr1CdaMistavHrQK9Fcmb7sEA2l2VmdS5idMw/QEM96hJae7A.jpg "togglingXOR")
+![togglinXOR](https://sun4-17.userapi.com/WGr1CdaMistavHrQK9Fcmb7sEA2l2VmdS5idMw/QEM96hJae7A.jpg "togglingXOR")
