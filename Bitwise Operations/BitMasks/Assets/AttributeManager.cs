@@ -20,23 +20,23 @@ public class AttributeManager : MonoBehaviour
     {
         if(other.gameObject.tag == "MAGIC")
         {
-            attributes |= MAGIC;
+            attributes ^= MAGIC;
         }
         else if (other.gameObject.tag == "INTELLIGENCE")
         {
-            attributes |= INTELLIGENCE;
+            attributes ^= INTELLIGENCE;
         }
         else if (other.gameObject.tag == "CHARISMA")
         {
-            attributes |= CHARISMA;
+            attributes ^= CHARISMA;
         }
         else if (other.gameObject.tag == "FLY")
         {
-            attributes |= FLY;
+            attributes ^= FLY;
         }
         else if (other.gameObject.tag == "INVISIBLE")
         {
-            attributes |= INVISIBLE;
+            attributes ^= INVISIBLE;
         }
         else if (other.gameObject.tag == "ANTIMAGIC")
         {

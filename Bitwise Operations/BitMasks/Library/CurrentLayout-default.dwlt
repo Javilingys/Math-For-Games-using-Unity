@@ -45,8 +45,8 @@ MonoBehaviour:
     y: 30
     width: 1792
     height: 958
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 14
 --- !u!114 &3
@@ -216,7 +216,7 @@ MonoBehaviour:
     y: 0
     width: 1429
     height: 958
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 15
@@ -241,8 +241,8 @@ MonoBehaviour:
     y: 0
     width: 1429
     height: 579
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 16
 --- !u!114 &11
@@ -338,11 +338,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: 62
   m_LastProjectPath: /Users/javilingys/Projects/Unity/Math-For-Games-using-Unity/Math-For-Games-using-Unity/Bitwise
     Operations/BitMasks
@@ -350,9 +350,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a43d0000
-    m_LastClickedID: 15780
-    m_ExpandedIDs: 000000000c3c000000ca9a3b
+    m_SelectedIDs: 5a360000
+    m_LastClickedID: 13914
+    m_ExpandedIDs: 000000005a36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -380,7 +380,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000005a360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 72dcffff
-      m_LastClickedID: -9102
-      m_ExpandedIDs: 6adfffff98e6ffff38fbffff
+      m_SelectedIDs: 2a2e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 20fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -565,9 +565,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.313202, y: 3.3079169, z: -16.005516}
+    m_Target: {x: -1.4124155, y: 1.0306255, z: 3.4964893}
     speed: 2
-    m_Value: {x: 8.313202, y: 3.3079169, z: -16.005516}
+    m_Value: {x: -1.4124155, y: 1.0306255, z: 3.4964893}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,13 +613,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11512041, y: -0.08571759, z: 0.009971417, w: -0.9895973}
+    m_Target: {x: -0.0052748867, y: -0.9872437, z: 0.1555851, w: -0.033473656}
     speed: 2
-    m_Value: {x: -0.11512028, y: -0.085717484, z: 0.009971404, w: -0.9895961}
+    m_Value: {x: -0.0052748737, y: -0.98724127, z: 0.15558471, w: -0.033473574}
   m_Size:
-    m_Target: 3.0316315
+    m_Target: 1.489062
     speed: 2
-    m_Value: 3.0168724
+    m_Value: 1.489062
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -632,7 +632,7 @@ MonoBehaviour:
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
