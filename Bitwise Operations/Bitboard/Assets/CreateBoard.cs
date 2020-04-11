@@ -43,7 +43,7 @@ public class CreateBoard : MonoBehaviour
     {
         int rr = UnityEngine.Random.Range(0, 8);
         int rc = UnityEngine.Random.Range(0, 8);
-        if (GetCellState(dirtBB, rr, rc))
+        if (GetCellState(dirtBB & ~playerBB, rr, rc))
         {
             GameObject tree = Instantiate(treePrefab);
             tree.transform.parent = tiles[rr * 8 + rc].transform;
