@@ -15,7 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 46
+    y: 45
     width: 1792
     height: 1008
   m_ShowMode: 4
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 639
     width: 1151
     height: 319
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 443
+  controlID: 16
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 506
+  controlID: 68
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 504
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Javilingys
+  m_LastLoadedLayoutName: 
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 0
-  controlID: 505
+  controlID: 67
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16522
+  m_LastSelectedObjectID: 13138
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 531
+    y: 530
     width: 277
     height: 482
   m_ViewDataDictionary: {fileID: 0}
@@ -420,18 +420,19 @@ MonoBehaviour:
     m_Folders:
     - Assets/Tiles
   m_ViewMode: 0
-  m_StartGridSize: 16
-  m_LastFolders: []
-  m_LastFoldersGridSize: 16
+  m_StartGridSize: 67
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: 67
   m_LastProjectPath: /Users/javilingys/Projects/Unity/Math-For-Games-using-Unity/Math-For-Games-using-Unity/Bitwise
     Operations/Bitboard
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 923c0000
-    m_LastClickedID: 15506
-    m_ExpandedIDs: 00000000183c000000ca9a3b
+    m_SelectedIDs: 56350000
+    m_LastClickedID: 13654
+    m_ExpandedIDs: 00000000563500005835000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,21 +460,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000183c00009a3d000000ca9a3b
+    m_ExpandedIDs: ffffffff000000005635000058350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CreateBoard
-      m_OriginalName: CreateBoard
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16952
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -511,8 +512,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 16
+    m_ScrollPosition: {x: 0, y: 66}
+    m_GridSize: 67
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 127
 --- !u!114 &17
@@ -537,7 +538,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1429
-    y: 76
+    y: 75
     width: 362
     height: 937
   m_ViewDataDictionary: {fileID: 0}
@@ -575,7 +576,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 76
+    y: 75
     width: 277
     height: 434
   m_ViewDataDictionary: {fileID: 0}
@@ -584,7 +585,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9ee8ffff92400000
+      m_ExpandedIDs: 62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -630,7 +631,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 278
-    y: 76
+    y: 75
     width: 1149
     height: 618
   m_ViewDataDictionary: {fileID: 0}
@@ -745,7 +746,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 278
-    y: 76
+    y: 75
     width: 1149
     height: 618
   m_ViewDataDictionary: {fileID: 0}
@@ -834,7 +835,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 278
-    y: 715
+    y: 714
     width: 1149
     height: 298
   m_ViewDataDictionary: {fileID: 0}
