@@ -91,12 +91,15 @@ public class CreateBoard : MonoBehaviour
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray, out hit))
             {
-                GameObject house = Instantiate(housePrefab);
-                house.transform.parent = hit.collider.gameObject.transform;
-                house.transform.localPosition = Vector3.zero;
-                playerBB = SetCellState(playerBB,
-                            (int)hit.collider.gameObject.transform.position.z,
-                            (int)hit.collider.gameObject.transform.position.x);
+                int r = (int)hit.collider.gameObject.transform.position.z;
+                int c = (int)hit.collider.gameObject.transform.position.x;
+                if (GetCellState(dirtBB & ~treeBB ,r,c))
+                {
+                    GameObject house = Instantiate(housePrefab);
+                    house.transform.parent = hit.collider.gameObject.transform;
+                    house.transform.localPosition = Vector3.zero;
+                    playerBB = SetCellState(playerBB, r, c);
+                }
             }
         }
     }
