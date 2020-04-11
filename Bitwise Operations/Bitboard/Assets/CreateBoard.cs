@@ -8,12 +8,15 @@ public class CreateBoard : MonoBehaviour
 {
     public GameObject[] tilePrefabs;
     public GameObject housePrefab;
+    public GameObject treePrefab;
     public Text score;
+    GameObject[] tiles;
     long dirtBB = 0; // 64 bits
 
     // Start is called before the first frame update
     void Start()
     {
+        tiles = new GameObject[64];
         for(int r = 0; r < 8; r++)
             for (int c = 0; c < 8; c++)
             {
@@ -23,6 +26,7 @@ public class CreateBoard : MonoBehaviour
                     pos,
                     Quaternion.identity);
                 tile.name = tile.tag + "_" + r + "_" + c;
+                tiles[r * 8 + c] = tile;
                 if (tile.tag == "Dirt")
                 {
                     dirtBB = SetCellState(dirtBB, r, c);
@@ -30,6 +34,19 @@ public class CreateBoard : MonoBehaviour
                 }
             }
         Debug.Log($"Dirt cells = {CellCount(dirtBB)}");
+        InvokeRepeating("PlantTree", 1, 1);
+    }
+
+    void PlantTree()
+    {
+        int rr = UnityEngine.Random.Range(0, 8);
+        int rc = UnityEngine.Random.Range(0, 8);
+        if (GetCellState(dirtBB, rr, rc))
+        {
+            GameObject tree = Instantiate(treePrefab);
+            tree.transform.parent = tiles[rr * 8 + rc].transform;
+            tree.transform.localPosition = Vector3.zero;
+        }
     }
 
     void PrintBB(string name, long BB)
@@ -43,6 +60,12 @@ public class CreateBoard : MonoBehaviour
         return (bitboard |= newBit);
     }
 
+    bool GetCellState(long bitboard, int row, int col)
+    {
+        long mask = 1L << (row * 8 + col);
+        return ((bitboard & mask) != 0);
+    }
+
     int CellCount(long bitboard)
     {
         int count = 0;
@@ -50,7 +73,7 @@ public class CreateBoard : MonoBehaviour
         while(bb != 0)
         {
             bb &= bb - 1;
-            Debug.Log($"bb = {Convert.ToString(bb, 2).PadLeft(64, '0')}");
+            //Debug.Log($"bb = {Convert.ToString(bb, 2).PadLeft(64, '0')}");
             count++;
         }
         return count;
