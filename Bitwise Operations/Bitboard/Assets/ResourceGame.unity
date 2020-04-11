@@ -160,6 +160,8 @@ MonoBehaviour:
   - {fileID: 7640780226382824646, guid: 41617882fd3544dbe8471c917df8475a, type: 3}
   housePrefab: {fileID: 5958316442239806738, guid: 33dd7643a2e11463cbf445ab0bc38f2a,
     type: 3}
+  treePrefab: {fileID: -927199367670048503, guid: 60854d3aef65d4fde87ad78b3e6361e2,
+    type: 3}
   score: {fileID: 419185558}
 --- !u!4 &114482737
 Transform:
@@ -301,7 +303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152.9, y: -51.9}
+  m_AnchoredPosition: {x: 152.8999, y: -51.899902}
   m_SizeDelta: {x: 248.63, y: 65.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419185558
