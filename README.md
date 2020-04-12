@@ -64,3 +64,22 @@ For unpacking bits we need create a mask that will get all of the you're interes
 ![togglinXOR](https://sun4-17.userapi.com/WGr1CdaMistavHrQK9Fcmb7sEA2l2VmdS5idMw/QEM96hJae7A.jpg "togglingXOR")
 
 ## 3. Locations
+
+### Cartesian Coordinates & Points
+
+* A point in the Cartesian space is denoted by its distance along the **x** axis followed by its distance along the **y** coordinate for the point is written **X Y**. 
+For Example:
+
+![cartCoord1](https://sun4-17.userapi.com/qeZOOrvqPDJ-N7DAiHXVXb6SA3LeIIVwIE_B3w/kmGfo3rmvnw.jpg "cartCoord1")
+
+The **X** coordinate must and always comes first followed by the **Y**. The defining property of Cartesian space is that a single coordinate only identifies a single location.
+
+* Cartesian coordinates can be defined for all dimensions of space from the **one dimensional** lumber line that has a single axis to the **two dimensional** system we've just looked at with **x** and **y** axes to the **three dimensional** system that add the addition of the **Z** axis to any number of dimensions that are difficult to visualise.
+
+* Simple example of three dimensional space system (X,Y,Z):
+
+![cartCoord2](https://sun4-12.userapi.com/ybhPfiphOKWsFFLRWFNFkTtTaNA9t9LqBvCRpQ/qPuqBIsqwj0.jpg "cartCoord2")
+
+* In games we generally are most concerned with representations in two and three dimensions. That is points stored as **X Y** for **2D** and points stored as **X Y Z** for **3D**
+
+![cartCoord3](https://sun4-16.userapi.com/fyyKo9AVqgqy1ja0hczxH-EQshGgQbauVfbY4Q/3WXuCN9l9pw.jpg "cartCoord3")
