@@ -83,3 +83,7 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 * In games we generally are most concerned with representations in two and three dimensions. That is points stored as **X Y** for **2D** and points stored as **X Y Z** for **3D**
 
 ![cartCoord3](https://sun4-16.userapi.com/fyyKo9AVqgqy1ja0hczxH-EQshGgQbauVfbY4Q/3WXuCN9l9pw.jpg "cartCoord3")
+
+* Basically we can think of space as a large rectangular prism with X Y and Z dimensions like this (3D space):
+
+![cartCoord4](https://sun4-17.userapi.com/Z-E_WSGrtBPIyDoe6Mxed9gE2dpzzzMHTbOxHA/vqpyV4Ji0_8.jpg "cartCoord4")
