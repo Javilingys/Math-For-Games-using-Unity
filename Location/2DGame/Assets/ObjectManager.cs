@@ -12,6 +12,7 @@ public class ObjectManager : MonoBehaviour
                                                             Random.Range(-100, 100),
                                                             objPrefab.transform.position.z),
                                                             Quaternion.identity);
+        Debug.Log("Fuel Location: " + obj.transform.position);
     }
 
     // Update is called once per frame
