@@ -94,4 +94,4 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 
 ![distance1](https://sun4-16.userapi.com/c9F7drVSsXrvYAdNiCJoMcLOcST0eIHg_f24YQ/1ROkwJ7tWWY.jpg "distance1")
 
-![distance2](https://sun4-10.userapi.com/7B_NH2BdMkZKH5f0HMnf3lpN468VgtxIJPSqSA/5w7g0_ifjCE.jpg "distance2")
+![distance2](https://sun4-15.userapi.com/SgmOL09jy6KSIRCJkR8FriS8mzYfrD5y5GeBRA/29huVA-i650.jpg "distance2")
