@@ -93,3 +93,5 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 * For calculate distance between two objects, you can use **Pythagorean theorem** :
 
 ![distance1](https://sun4-16.userapi.com/c9F7drVSsXrvYAdNiCJoMcLOcST0eIHg_f24YQ/1ROkwJ7tWWY.jpg "distance1")
+
+![distance2](https://sun4-10.userapi.com/7B_NH2BdMkZKH5f0HMnf3lpN468VgtxIJPSqSA/5w7g0_ifjCE.jpg "distance2")
