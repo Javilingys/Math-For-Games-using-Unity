@@ -246,6 +246,7 @@ MonoBehaviour:
   fuel: {fileID: 800595119}
   tankPosition: {fileID: 1832281564}
   fuelPosition: {fileID: 2083331561}
+  energyAmt: {fileID: 670201518}
 --- !u!4 &275053596
 Transform:
   m_ObjectHideFlags: 0
@@ -328,7 +329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Enter energy...
 --- !u!222 &309860955
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -625,7 +626,18 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 275053595}
+        m_MethodName: AddEnergy
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -684,7 +696,7 @@ GameObject:
   - component: {fileID: 670201519}
   - component: {fileID: 670201518}
   m_Layer: 5
-  m_Name: EnergyPos
+  m_Name: EnergyAmt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,7 +752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3456
+  m_Text: 0
 --- !u!222 &670201519
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -967,6 +979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rotationSpeed: 100
+  energyAmt: {fileID: 670201518}
 --- !u!1 &1296976491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1200,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 150, y: 20}
+  m_CellSize: {x: 150, y: 30}
   m_Spacing: {x: 10, y: 5}
   m_Constraint: 0
   m_ConstraintCount: 2
