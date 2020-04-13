@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         tankPosition.text = tank.transform.position + "";
+        fuelPosition.text = fuel.GetComponent<ObjectManager>().objPosition + "";
     }
 
     // Update is called once per frame
