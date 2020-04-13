@@ -87,3 +87,9 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 * Basically we can think of space as a large rectangular prism with X Y and Z dimensions like this (3D space):
 
 ![cartCoord4](https://sun4-17.userapi.com/Z-E_WSGrtBPIyDoe6Mxed9gE2dpzzzMHTbOxHA/vqpyV4Ji0_8.jpg "cartCoord4")
+
+### Calculating Distance
+
+* For calculate distance between two objects, you can use **Pythagorean theorem** :
+
+![distance1](https://sun4-15.userapi.com/DUxkKajnHVPcQYxzluop-kxvjhxfRHX2jZ_aww/8If_zT7SagQ.jpg "distance1")
