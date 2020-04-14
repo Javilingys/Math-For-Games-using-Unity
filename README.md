@@ -146,5 +146,7 @@ If we multiply by a smaller value such as zero point five or negative zero point
 
 ### Vectors Moving to a Point
 
+* Find direction:
+
 ![vmove1](https://sun4-10.userapi.com/iKUdHK8OOFh02QUl-lSm8I_mWCW4OalxWkA_Sg/O0lVjgcOYbU.jpg "vmove1")
 

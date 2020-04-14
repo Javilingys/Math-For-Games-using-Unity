@@ -17,6 +17,7 @@ public class Drive2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = fuel.transform.position;   
+        Vector3 direction = fuel.transform.position - this.transform.position;
+        this.transform.position += direction * speed;   
     }
 }
