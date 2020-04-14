@@ -101,5 +101,7 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 ### Introduction to Vectors
 
 **Vectors** themselves when written coordinates look very much the same as point. However they are different.
+
 **The point** four or five is a single location four along the **x** axis and five along the **y** measured from the **origin**.
+
 **The vector** for five however can start from **anywhere** in space but measure four in the **x** and five in the **y** whereas a point is a single location affected can be anywhere. In space a **vector** also represent a **direction**
