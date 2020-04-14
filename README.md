@@ -150,3 +150,16 @@ If we multiply by a smaller value such as zero point five or negative zero point
 
 ![vmove1](https://sun4-10.userapi.com/iKUdHK8OOFh02QUl-lSm8I_mWCW4OalxWkA_Sg/O0lVjgcOYbU.jpg "vmove1")
 
+### Vector Normal Form
+
+Calculate in the normal of a vector requires knowing the vectors direction as well as its magnitude. Now what we want to do is find another vector that is travelling in exactly the same direction buy has a **length of one.** **This is normal**
+
+![normal1](https://sun4-17.userapi.com/3l6EKnl2qCjy8X_qN5p8sywJGHfRqAQe6rJ_wg/77gulf6ip8c.jpg "normal1")
+
+Have a think about how you would get any number to equal 1. Well you divide it by itself. So five divided by five is going to give you one. **The way to reduce a vector down to a length of 1 is to divide each element.** Each coordinate by its magnitude. So the formula look like this:
+
+![normal2](https://sun4-10.userapi.com/hRaxBBhKsaOpNvaeK7Vvce_SbcPSEz0V0PY_6Q/snPYzRFvFMo.jpg "normal2")
+
+So the **V with little hat above** it means **the normal form of v the vector. Is going to equal the **x** coordinate divided by the length and remember the length. Is denoted by the vector with the double pipes around it and then the **y** coordinate divided by its length.
+
+![normal3](https://sun4-10.userapi.com/-oviM9--yIsQCufMCMVrhmeYkB6dlC7TvY5izQ/aKJfhF0OMq8.jpg "normal3")
