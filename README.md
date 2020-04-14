@@ -105,3 +105,7 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 **The point** four or five is a single location four along the **x** axis and five along the **y** measured from the **origin**.
 
 **The vector** for five however can start from **anywhere** in space but measure four in the **x** and five in the **y** whereas a point is a single location affected can be anywhere. In space a **vector** also represent a **direction**
+
+We can draw vector here, here and here and etc, It's just a direction and magnitude in space:
+
+![vector1](https://sun4-17.userapi.com/FEfL49rlwUoT9xb6n2mW5Bc9PMJ7V5s-ThiAkQ/NJ9snzucYLM.jpg "vector1")
