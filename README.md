@@ -109,3 +109,14 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 We can draw vector here, here and here and etc, It's just a direction and magnitude in space:
 
 ![vector1](https://sun4-17.userapi.com/FEfL49rlwUoT9xb6n2mW5Bc9PMJ7V5s-ThiAkQ/NJ9snzucYLM.jpg "vector1")
+
+* Recall Pythagoras this theorem where the **length** is equal to the **square root** of **x squared** **plus** **y squared**. So we can find the distance between two objects a vector.:
+
+![vector2](https://sun4-17.userapi.com/lXQ1IoQTUCODIYCpoS29y9_PLBI1Ucq1oGgC2g/5fPBQrix9zM.jpg "vector2")
+
+* Once we know where a vector starts we can calculate the point where it ends by adding the starting point coordinated to the vector coordinates. _For example:_ 
+* So if we start at **0 0** and travel along the vector **4 5** the destination Weill be **0 0 plus 4 5** which gives us **4 5**.
+* If we start at the point **7 1** and travel along the **same vector** we end up at **7 1 plus 4 5** which will give us our destination point of **11 6** :
+
+![vector3](https://sun4-10.userapi.com/nqi9K-tT7hjdhxx2F52bxn45tkbrzQGkhyjZ6Q/nnqp-Hy4Wqw.jpg "vector3")
+
