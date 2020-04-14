@@ -6,14 +6,30 @@ using System.Collections;
 public class Drive : MonoBehaviour
 {
 
+    Vector2 dir = new Vector2(0.1f, 0.1f);
 
     void Update()
     {
         // Record of position a tank
         Vector3 position = this.transform.position;
 
-        position.x += 0.1f;
-        position.y += 0.1f;
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            position.y += dir.y;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            position.y += -dir.y;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            position.x += -dir.x;
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            position.x += dir.x;
+        }
+
         this.transform.position = position;
     }
 }
