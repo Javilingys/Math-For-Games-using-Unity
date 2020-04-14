@@ -144,3 +144,7 @@ If we multiply by a smaller value such as zero point five or negative zero point
 
 ![unityspec1](https://sun4-17.userapi.com/z26nCTxy0-WDnyVob0mI-xVFbnrBhqxQLXYooQ/x-IF9eInjz8.jpg "unityspec2")
 
+### Vectors Moving to a Point
+
+![vmove1](https://sun4-10.userapi.com/iKUdHK8OOFh02QUl-lSm8I_mWCW4OalxWkA_Sg/O0lVjgcOYbU.jpg "vmove1")
+
