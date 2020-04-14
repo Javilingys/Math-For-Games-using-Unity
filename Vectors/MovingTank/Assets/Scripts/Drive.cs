@@ -6,10 +6,9 @@ using System.Collections;
 public class Drive : MonoBehaviour
 {
 
-    Vector2 Up = new Vector2(0f, 0.1f);
-    //Vector2 Down = new Vector2(0f, -0.1f);
-    Vector2 Left = new Vector2(-0.1f, 0f);
-    //Vector2 Right = new Vector2(0.1f, 0f);
+    Vector2 Up = new Vector2(0f, 1f);
+    Vector2 Right = new Vector2(1f, 0f);
+    float speed = 0.8f;
 
     void Update()
     {
@@ -18,23 +17,23 @@ public class Drive : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            position.x += Up.x;
-            position.y += Up.y;
+            position.x += Up.x * speed;
+            position.y += Up.y * speed;
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            position.x += -Up.x;
-            position.y += -Up.y;
+            position.x += -Up.x * speed;
+            position.y += -Up.y * speed;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            position.x += Left.x;
-            position.y += Left.y;
+            position.x += -Right.x * speed;
+            position.y += -Right.y * speed;
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            position.x += -Left.x;
-            position.y += -Left.y;
+            position.x += Right.x * speed;
+            position.y += Right.y * speed;
         }
 
         this.transform.position = position;
