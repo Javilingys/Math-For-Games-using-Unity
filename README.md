@@ -120,3 +120,7 @@ We can draw vector here, here and here and etc, It's just a direction and magnit
 
 ![vector3](https://sun4-10.userapi.com/nqi9K-tT7hjdhxx2F52bxn45tkbrzQGkhyjZ6Q/nnqp-Hy4Wqw.jpg "vector3")
 
+* Vector/Point Addition & Subtraction.
+
+![vector4](https://sun4-10.userapi.com/RIUXtxbDu5qorvvxUZqfylr7P0pBPOKEpCcKVQ/M0hCozGIybU.jpg "vector4")
+
