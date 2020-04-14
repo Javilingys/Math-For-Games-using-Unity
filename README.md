@@ -124,3 +124,23 @@ We can draw vector here, here and here and etc, It's just a direction and magnit
 
 ![vector4](https://sun4-10.userapi.com/RIUXtxbDu5qorvvxUZqfylr7P0pBPOKEpCcKVQ/M0hCozGIybU.jpg "vector4")
 
+![unityspec2](https://sun4-15.userapi.com/iwkF9wwTbl0eClET-rE15fHKbbFnYCQH3O8ztg/rIpY3I7Rhfk.jpg "unityspec2")
+
+So to reiterate scaling a vector affects it in the way. If you multiply it by a whole then you're going to **increase** its size. You can see a vector and then it's multiply by 2. It remains parallel so it's pointing in the same direction. **It's just got a larger magnitude.**
+
+If we multiply it by a value **less then 1** say point 5 then we're actually **decreasing** its size. Again it stays parallel to the original vector points in exactly the same direction but it has a **shorter** magnitude.
+
+Now if you wanna flip the vector around so it's in exactly the opposite direction so it's facing essentially 180 degrees from what it was before, then we multiply it by a **negative** value. Multiplying it by negative one will make the magnitude stay at the same but give us the **opposite** vector. 
+
+If we multiply by a smaller value such as zero point five or negative zero point five then we shorten the vector and we turn it around.
+
+![vector5](https://sun4-11.userapi.com/3RmHJrLRfsomX2Sn-99jCq-uw5HulF5ed8kIRw/psj7cNK_w5U.jpg "vector5")
+
+* Mathematically Speaking
+
+![vector6](https://sun4-12.userapi.com/iJsMeX2EtOS2_NYlLMqxz9fshT5pT5tTDQHdTg/VDBSicGiT3Q.jpg "vector6")
+
+* Unity Specifics
+
+![unityspec1](https://sun4-17.userapi.com/z26nCTxy0-WDnyVob0mI-xVFbnrBhqxQLXYooQ/x-IF9eInjz8.jpg "unityspec2")
+
