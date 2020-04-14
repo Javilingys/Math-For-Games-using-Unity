@@ -97,3 +97,9 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 ![distance2](https://sun4-15.userapi.com/SgmOL09jy6KSIRCJkR8FriS8mzYfrD5y5GeBRA/29huVA-i650.jpg "distance2")
 
 ## 4. Vectors
+
+### Introduction to Vectors
+
+**Vectors** themselves when written coordinates look very much the same as point. However they are different.
+**The point** four or five is a single location four along the **x** axis and five along the **y** measured from the **origin**.
+**The vector** for five however can start from **anywhere** in space but measure four in the **x** and five in the **y** whereas a point is a single location affected can be anywhere. In space a **vector** also represent a **direction**
