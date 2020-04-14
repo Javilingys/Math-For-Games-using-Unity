@@ -160,6 +160,6 @@ Have a think about how you would get any number to equal 1. Well you divide it b
 
 ![normal2](https://sun4-10.userapi.com/hRaxBBhKsaOpNvaeK7Vvce_SbcPSEz0V0PY_6Q/snPYzRFvFMo.jpg "normal2")
 
-So the **V with little hat above** it means **the normal form of v the vector. Is going to equal the **x** coordinate divided by the length and remember the length. Is denoted by the vector with the double pipes around it and then the **y** coordinate divided by its length.
+So the **V with little hat above** it means **the normal form of v the vector**. Is going to equal the **x** coordinate divided by the length and remember the length. Is denoted by the vector with the double pipes around it and then the **y** coordinate divided by its length.
 
 ![normal3](https://sun4-10.userapi.com/-oviM9--yIsQCufMCMVrhmeYkB6dlC7TvY5izQ/aKJfhF0OMq8.jpg "normal3")
