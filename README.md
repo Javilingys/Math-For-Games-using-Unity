@@ -188,7 +188,7 @@ For example:
 
 ![dotprod4](https://sun4-11.userapi.com/F8EUZbt6nT_3PAjEHNf5nkOQR_xbG1t_1gqgOg/UBG_sCVdV9U.jpg "dotprod4")
 
-If we Weill interest in is turning the tank to face the fuel before it moves towards it, we will have *the first problem** we are faced with is ti find the **actual angle** between the forward facing direction of the tank and the direction to the fuel.
+If we will interest in is turning the tank to face the fuel before it moves towards it, we will have *the first problem** we are faced with is ti find the **actual angle** between the forward facing direction of the tank and the direction to the fuel.
 
 ![dotprod5](https://sun4-10.userapi.com/SCZ_WZObgUMBom6LqUX-W4KolVFs4Mr6A3j7uQ/9ARVU70PnbU.jpg "dotprod5")
 
