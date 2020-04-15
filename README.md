@@ -209,3 +209,11 @@ If we apply its into our code, we'll get a wrong clockwise rotation, because we 
 ### Cross Product
 
 ![cross1](https://sun4-17.userapi.com/zJbNAcZdz-5TILA5vhotCzMtYPCOCTRSe1c4CA/hLJK-Ti3rpw.jpg "cross1")
+
+Resulting vector is one that is perpendicular to the other two. Now the interesting thing about the cross product is that it's **not reversible**. **v cross W does not equal w cross V**. In fact if you perform the operation the other way around you will still get evicted that is perpendicular to both V and W, but it will be facing in the other direction...
+
+![cross2](https://sun4-17.userapi.com/QsqvDUa-2CbVQpXSpvBApt9w6GWTuxdqFFMioA/QvdnmooITTg.jpg "cross2")
+
+...  and we can exploit this fact in determining which way our tanks should turn.
+
+![cross3](https://sun4-15.userapi.com/6DWOIvDN7IOfx_EaTn8YOVe219MTsktoxfbYiA/I_9ZNrpCl6U.jpg "cross3")
