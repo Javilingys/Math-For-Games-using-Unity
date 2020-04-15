@@ -17,8 +17,9 @@ public class Drive2 : MonoBehaviour
         Coords dirNormal = HolisticMath.GetNormal(new Coords(direction));
         direction = dirNormal.ToVector();
         // Coords(0,1,0) - facing of the tank
-        float angle = HolisticMath.Angle(new Coords(0, 1, 0), new Coords(direction)) * 180.0f/Mathf.PI;
-        Debug.Log("Angle to fuel:" + angle);
+        float angle = HolisticMath.Angle(new Coords(0, 1, 0), new Coords(direction)); //* 180.0f/Mathf.PI;
+        Coords newDir = HolisticMath.Rotate(new Coords(0, 1, 0), angle);
+        this.transform.up = new Vector3(newDir.X, newDir.Y, newDir.Z);
     }
 
     // Update is called once per frame

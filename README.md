@@ -201,3 +201,7 @@ The relationship between the dot product and the angle between the vectors, and 
 **To rotate** a vector about an angle the **x and y** components need to be manipulated with **sine and cosine** functions such that the **new x value of the vector becomes** the **original x** value **multiplied by the coastline of the Ange minus the original y value multiplied by the sine of the value** and **the y value becomes the original x value multiplied be the sine of the angle plus the original y value multiplied by the cosine of the angle**
 
 ![rotate1](https://sun4-16.userapi.com/BYavK9YkC126SYEQz9LoAjzoz-C-ejFMeq8GpQ/M4zKoG0xBOY.jpg "rotate1")
+
+If we apply its into our code, we'll get a wrong clockwise rotation, because we rotating in Right-Handed Coordinates, while Unity uses Left-Handed Coordinate. 
+
+![rotate2](https://sun4-15.userapi.com/qXi52IqEX8RcHVlItf6BMXkrVmUp-HCMHQcpww/nL6aZJO6jig.jpg "rotate2")

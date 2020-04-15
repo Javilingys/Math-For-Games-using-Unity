@@ -39,4 +39,12 @@ public class HolisticMath
             (Distance(new Coords(0,0,0), vector1) * Distance(new Coords(0, 0, 0), vector2));
         return Mathf.Acos(dotDivide); // radians. For degrees * 180/Mathf.PI;
     }
+
+    static public Coords Rotate(Coords vector, float angle) // in radians
+    {
+        float xVal = vector.X * Mathf.Cos(angle) - vector.Y * Mathf.Sin(angle);
+        float yVal = vector.X * Mathf.Sin(angle) + vector.Y * Mathf.Cos(angle);
+
+        return new Coords(xVal, yVal, 0);
+    }
 }
