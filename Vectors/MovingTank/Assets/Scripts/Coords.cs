@@ -22,6 +22,13 @@ public class Coords
         Z = _z;
     }
 
+    public Coords(Vector3 vecpos)
+    {
+        X = vecpos.x;
+        Y = vecpos.y;
+        Z = vecpos.z;
+    }
+
     public override string ToString()
     {
         return "(" + X + "," + Y + "," + Z + ")";

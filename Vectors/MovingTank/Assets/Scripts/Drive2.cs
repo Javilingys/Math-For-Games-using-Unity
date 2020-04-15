@@ -5,7 +5,7 @@ using UnityEngine;
 // Scriipt for Vectors Moving to a Point
 public class Drive2 : MonoBehaviour
 {
-    float speed = 0.01f;
+    float speed = 5f;
     public GameObject fuel;
     Vector3 direction;
     float stoppingDistance = 0.1f;
@@ -14,12 +14,15 @@ public class Drive2 : MonoBehaviour
     void Start()
     {
         direction = fuel.transform.position - this.transform.position;
+        Coords dirNormal = HolisticMath.GetNormal(new Coords(direction));
+        direction = dirNormal.ToVector();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(this.transform.position, fuel.transform.position) > stoppingDistance)
+        if(HolisticMath.Distance(new Coords(this.transform.position),
+                                new Coords(fuel.transform.position)) > stoppingDistance)
         {
             this.transform.position += direction * speed;
         }
