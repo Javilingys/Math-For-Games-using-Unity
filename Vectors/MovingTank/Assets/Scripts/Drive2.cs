@@ -16,6 +16,13 @@ public class Drive2 : MonoBehaviour
         direction = fuel.transform.position - this.transform.position;
         Coords dirNormal = HolisticMath.GetNormal(new Coords(direction));
         direction = dirNormal.ToVector();
+
+        this.transform.up = HolisticMath.LookAt2D(new Coords(this.transform.up),
+                                                new Coords(this.transform.position),
+                                                new Coords(fuel.transform.position)).ToVector();
+        /*direction = fuel.transform.position - this.transform.position;
+        Coords dirNormal = HolisticMath.GetNormal(new Coords(direction));
+        direction = dirNormal.ToVector();
         // Coords(0,1,0) - facing of the tank
         float angle = HolisticMath.Angle(new Coords(this.transform.up), new Coords(direction)); //* 180.0f/Mathf.PI;
 
@@ -26,7 +33,7 @@ public class Drive2 : MonoBehaviour
         }
 
         Coords newDir = HolisticMath.Rotate(new Coords(0, 1, 0), angle, clockwise);
-        this.transform.up = new Vector3(newDir.X, newDir.Y, newDir.Z);
+        this.transform.up = new Vector3(newDir.X, newDir.Y, newDir.Z); */
     }
 
     // Update is called once per frame
