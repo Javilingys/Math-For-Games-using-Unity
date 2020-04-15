@@ -163,3 +163,21 @@ Have a think about how you would get any number to equal 1. Well you divide it b
 So the **V with little hat above** it means **the normal form of v the vector**. Is going to equal the **x** coordinate divided by the length and remember the length. Is denoted by the vector with the double pipes around it and then the **y** coordinate divided by its length.
 
 ![normal3](https://sun4-10.userapi.com/-oviM9--yIsQCufMCMVrhmeYkB6dlC7TvY5izQ/aKJfhF0OMq8.jpg "normal3")
+
+### Dot Product
+
+The dot product is the sum of the multiplication of the corresponding components or coordinate values.  
+In two vectors given the vectors V and W shown below **The dot product** is found by **multiplying both x values together both y values together and then adding the result.**
+
+![dotprod1](https://sun4-15.userapi.com/Fn5wYrRtxfk4F0HI-yfXJ8Q09z_rXYr_yX1xBQ/17cC1qZBdvk.jpg "dotprod1")
+
+Now you're probably sitting there thinking so what this is value we are calculating main. Well it tells us a few things about the relative orientations of the vectors. Look at example below:
+
+![dotprod2](https://sun4-11.userapi.com/IdOakT_29aBUpMIA1rH6Wm-JjWQvjz8KS3Vtog/BqqpzDQ2Zww.jpg "dotprod2")
+
+Here:
+* In **a** .In the case of **dot product** is a **positive value** and **the angle between the vectors is less than 90 degrees.** 
+* In **b** the vectors are at **90 degrees to each other** and **the dot product is 0**
+* for **c** the vectors make a **greater than 90 degrees** to each other and **the dot product is less than zero**.
+
+![dotprod3](https://sun4-16.userapi.com/JQbzaq9nOki5VHjx8sa7JgJuoY6tIpAUopjeQw/px2hEVezicQ.jpg "dotprod3")
