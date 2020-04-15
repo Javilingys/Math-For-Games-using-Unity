@@ -195,3 +195,9 @@ If we will interest in is turning the tank to face the fuel before it moves towa
 The relationship between the dot product and the angle between the vectors, and angle between the vectors can be expressed like this:
 
 ![dotprod6](https://sun4-16.userapi.com/5dxctG2pabtBky7XJrA86d2ow8YVg6qlKJY9hQ/i_xMlYXut6A.jpg "dotprod6")
+
+### Vector Rotations
+
+**To rotate** a vector about an angle the **x and y** components need to be manipulated with **sine and cosine** functions such that the **new x value of the vector becomes** the **original x** value **multiplied by the coastline of the Ange minus the original y value multiplied by the sine of the value** and **the y value becomes the original x value multiplied be the sine of the angle plus the original y value multiplied by the cosine of the angle**
+
+![rotate1](https://sun4-16.userapi.com/BYavK9YkC126SYEQz9LoAjzoz-C-ejFMeq8GpQ/M4zKoG0xBOY.jpg "rotate1")
