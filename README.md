@@ -205,3 +205,7 @@ The relationship between the dot product and the angle between the vectors, and 
 If we apply its into our code, we'll get a wrong clockwise rotation, because we rotating in Right-Handed Coordinates, while Unity uses Left-Handed Coordinate. 
 
 ![rotate2](https://sun4-15.userapi.com/qXi52IqEX8RcHVlItf6BMXkrVmUp-HCMHQcpww/nL6aZJO6jig.jpg "rotate2")
+
+### Cross Product
+
+![cross1](https://sun4-17.userapi.com/zJbNAcZdz-5TILA5vhotCzMtYPCOCTRSe1c4CA/hLJK-Ti3rpw.jpg "cross1")
