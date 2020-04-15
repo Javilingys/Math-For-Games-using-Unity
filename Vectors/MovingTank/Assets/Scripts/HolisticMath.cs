@@ -27,4 +27,16 @@ public class HolisticMath
     {
         return value * value;
     }
+
+    static public float Dot(Coords vector1, Coords vector2)
+    {
+        return (vector1.X * vector2.X + vector1.Y * vector2.Y + vector1.Z * vector2.Z);
+    }
+
+    static public float Angle(Coords vector1, Coords vector2)
+    {
+        float dotDivide = Dot(vector1, vector2) /
+            (Distance(new Coords(0,0,0), vector1) * Distance(new Coords(0, 0, 0), vector2));
+        return Mathf.Acos(dotDivide); // radians. For degrees * 180/Mathf.PI;
+    }
 }
