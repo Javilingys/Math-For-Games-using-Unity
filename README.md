@@ -181,3 +181,9 @@ Here:
 * for **c** the vectors make a **greater than 90 degrees** to each other and **the dot product is less than zero**.
 
 ![dotprod3](https://sun4-16.userapi.com/JQbzaq9nOki5VHjx8sa7JgJuoY6tIpAUopjeQw/px2hEVezicQ.jpg "dotprod3")
+
+This useful in games will allows us to determine where one game object is in relation to another game object.
+
+For example:
+
+![dotprod4](https://sun4-11.userapi.com/F8EUZbt6nT_3PAjEHNf5nkOQR_xbG1t_1gqgOg/UBG_sCVdV9U.jpg "dotprod4")
