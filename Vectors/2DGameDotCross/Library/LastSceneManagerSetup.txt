@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/2DGameAngleFinal.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
