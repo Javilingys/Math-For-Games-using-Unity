@@ -18,6 +18,6 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = line.GetPointAt(0.5f).ToVector();
+        this.transform.position = line.GetPointAt(Time.time).ToVector();
     }
 }
