@@ -233,3 +233,17 @@ In 3D space all rules are same:
 ![3d5](https://sun4-15.userapi.com/fzKj86FkuF_hk1y9lYShkIGyTFxDbPKzoK6puw/eyN-TlAg5EA.jpg "3d5")
 
 ![3d6](https://sun4-15.userapi.com/URczifO4ab6t0tggEXW8yKP6vxVpNBWn2Ykujg/0hnorCquqAc.jpg "3d6")
+
+## 5. Intersections
+
+### Lines, Line Segments and Rays
+
+**Vector**. It's Represented by an arrow in space with no position but has a **direction and magnitude**.
+
+**A Line**. A line is defined by two points, let's call these **a** and **b**. A line passes through these points and continues to infinity in both directions.
+
+**A Line Segment**. A line segment on the other hand is a small part of a line that terminates on both end.
+
+**A Ray**. Well a ray is kind of like a vector in that it has a direction though unlike a vector it has s tarting point and continues off into infinity.
+
+![lines](https://sun4-17.userapi.com/LCNKYB0fUBhAh3ZaFWIIlr40TdtP-NzOCvJb3Q/UUoFySbO8xU.jpg "lines")
