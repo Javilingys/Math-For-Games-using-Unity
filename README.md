@@ -232,4 +232,4 @@ In 3D space all rules are same:
 
 ![3d5](https://sun4-15.userapi.com/fzKj86FkuF_hk1y9lYShkIGyTFxDbPKzoK6puw/eyN-TlAg5EA.jpg "3d5")
 
-![3d6](https://sun4-15.userapi.com/fzKj86FkuF_hk1y9lYShkIGyTFxDbPKzoK6puw/eyN-TlAg5EA.jpg "3d6")
+![3d6](https://sun4-15.userapi.com/URczifO4ab6t0tggEXW8yKP6vxVpNBWn2Ykujg/0hnorCquqAc.jpg "3d6")
