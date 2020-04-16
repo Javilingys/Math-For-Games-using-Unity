@@ -257,3 +257,11 @@ Think of a line or at least a line segment as a point and a vector. We know that
 In fact, **any point on this line** second be found by **adding some multiple of the vector to A**. **At A the multiple will be zero** and **at B it will be one**. We can therefore say that **any point on the line** can be calculated with **B equals A plus V multiplied by t**. **t ranges between 0 and 1 inclusive**. And **B = A + v*t is parametric form of the equation of a line segment**. And the line formula can be used for all **(lines and rays)** the only **differing factor is the range of T**.
 
 ![params2](https://sun4-10.userapi.com/l68saZaNYMzj4Eo1nS-hQOpSAbTpr5DUAiK_gg/AmGqt-6Xay0.jpg "params2")
+
+So we need to write the equation like this instead. Now it reads that **the line at position t is equal to A or the starting point plus the Vector multiplied by t**.
+
+![params3](https://sun4-16.userapi.com/irNIwauIZq9jZIDXR3cCEY3JZz4P7jyRKlYaFg/_6niHrrHyYI.jpg "params3")
+
+Example:
+
+![params4](https://sun4-10.userapi.com/IOb3Vk9XswbziJcAn7bhhgQrYWdm6wZCAUJqBA/XJ_E9mm-G3Q.jpg "params4")
