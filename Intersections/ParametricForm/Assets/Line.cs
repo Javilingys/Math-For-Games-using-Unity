@@ -19,7 +19,7 @@ public class Line
         v = new Coords(B.x - A.x, B.y - A.y, B.z - A.z);
     }
 
-    public Coords GetPointAt(float t)
+    public Coords Lerp(float t)
     {
         if (type == LINETYPE.SEGMENT)
             t = Mathf.Clamp(t, 0, 1); // t between 0 and 1

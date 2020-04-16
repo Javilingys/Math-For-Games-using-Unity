@@ -21,6 +21,17 @@ public class HolisticMath
 
     }
 
+    static public Coords Lerp(Coords A, Coords B, float t)
+    {
+        t = Mathf.Clamp(t, 0, 1);
+        Coords v = new Coords(B.x - A.x, B.y - A.y, B.z - A.z);
+        float xt = A.x + v.x * t;
+        float yt = A.y + v.y * t;
+        float zt = A.z + v.z * t;
+
+        return new Coords(xt, yt, zt);
+    }
+
     static public Coords GetNormal(Coords vector)
     {
         float length = Distance(new Coords(0, 0, 0), vector);
