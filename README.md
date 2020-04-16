@@ -247,3 +247,9 @@ In 3D space all rules are same:
 **A Ray**. Well a ray is kind of like a vector in that it has a direction though unlike a vector it has s tarting point and continues off into infinity.
 
 ![lines](https://sun4-17.userapi.com/LCNKYB0fUBhAh3ZaFWIIlr40TdtP-NzOCvJb3Q/UUoFySbO8xU.jpg "lines")
+
+* Parametric From
+
+Think of a line or at least a line segment as a point and a vector. We know that for the point on the **other end** of this line segment the equation to find it it **the point plus the vector**. In this case that's **B equals A plus V**. So if B equals A plus V, then what might the formula for the point halfway along this line be. Well it's going to be a plus half of V. Ok.. What's about a point that is a quarter of the way along the line segment from A towards B? Well, it's going to be **A plus V multiplied by her point five or where we're taking a quarter of V and adding it to A**.
+
+![params2](https://sun4-15.userapi.com/UR7i9dJHxFfAaMdoUedqlQFWguXq0l3FNJZ2kA/DQaY5hvCitg.jpg "params1")
