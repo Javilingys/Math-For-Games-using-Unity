@@ -217,3 +217,19 @@ Resulting vector is one that is perpendicular to the other two. Now the interest
 ...  and we can exploit this fact in determining which way our tanks should turn.
 
 ![cross3](https://sun4-15.userapi.com/6DWOIvDN7IOfx_EaTn8YOVe219MTsktoxfbYiA/I_9ZNrpCl6U.jpg "cross3")
+
+### Moving from 2D to 3D
+
+In 3D space all rules are same:
+
+![3d1](https://sun4-10.userapi.com/LURQIi3a7vnejfW7yfCTXnQG0X2axW3hVBM1RQ/KDBM4uyd2jE.jpg "3d1")
+
+![3d2](https://sun4-16.userapi.com/ogr_FwXwBLqftT3WRQ-11TC-9VdaExtFk_zkaw/PQdofTVjGTE.jpg "3d2")
+
+![3d3](https://sun4-17.userapi.com/AjJwJWLcKkZCpsaagiyYs4ZV9kkFaNkuoUYLKw/qKjCZLKw6Qw.jpg "3d3")
+
+![3d4](https://sun4-15.userapi.com/gCP0WgXfPDqAuFEQFbjTKSVwnkGdjRusVQ1DZA/n7VMFbgyGUY.jpg "3d4")
+
+![3d5](https://sun4-15.userapi.com/fzKj86FkuF_hk1y9lYShkIGyTFxDbPKzoK6puw/eyN-TlAg5EA.jpg "3d5")
+
+![3d6](https://sun4-15.userapi.com/fzKj86FkuF_hk1y9lYShkIGyTFxDbPKzoK6puw/eyN-TlAg5EA.jpg "3d6")
