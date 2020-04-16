@@ -69,11 +69,12 @@ public class HolisticMath
     {
         if (HolisticMath.Distance(new Coords(0, 0, 0), vector) <= 0) return position;
         float angle = HolisticMath.Angle(vector, facing);
+        float worldAngle = HolisticMath.Angle(vector, new Coords(0, 1, 0));
         bool clockwise = false;
         if (HolisticMath.Cross(vector, facing).z < 0)
             clockwise = true;
 
-        vector = HolisticMath.Rotate(vector, angle, clockwise);
+        vector = HolisticMath.Rotate(vector, angle + worldAngle, clockwise);
 
         float xVal = position.x + vector.x;
         float yVal = position.y + vector.y;
