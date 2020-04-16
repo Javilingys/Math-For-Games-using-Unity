@@ -12,12 +12,12 @@ public class Move : MonoBehaviour
     void Start()
     {
         line = new Line(new Coords(start.position),
-                        new Coords(end.position));
+                        new Coords(end.position), Line.LINETYPE.SEGMENT);
     }
 
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = line.GetPointAt(Time.time).ToVector();
+        this.transform.position = line.GetPointAt(Time.time * 0.1f).ToVector();
     }
 }
