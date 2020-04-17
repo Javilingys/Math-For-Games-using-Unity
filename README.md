@@ -289,3 +289,13 @@ Parametric form for a plane is thus. **P at S , T equals A plus V multiplied by 
 For example, if we need find a parametric form for a plane that passes through the point 0 0 0, 5 4 6, and -10 7 3 . First we need to work out the two vectors and so we can use these points to do that but we must create the vectors starting at the same point 0 0 0. Is just easiest for doing calculations.
 
 ![plane6](https://sun4-10.userapi.com/QL-78mdKQkZaQO9UBUqfNGCZieapZLSpYvWxUw/m_ZpDR3EILM.jpg "plane6")
+
+### Intersection of Two Line Segment
+
+Consider two lines one defined by the **point A** and a **vector V** and other defined by the **point B** and **vector U**. 
+
+In parametric form the line for **A** is **A + vt** , and the line for **B** is **B + us**. These lines will intersect where the results for these two equations are equal. So we can define the intersection point as **A + vt = B + us**.
+
+To simplify this further in order to help us solve it we are going to remove the points **A and BB** and **replace them with vector**. Here we can rearrange the equation of vt equals B minus A plus us. Now we know from determining vectors that B minus A because it points is going to give us a vector from the point A to B. So we'll call this new vector **c** and substitute it into the equation in the place of B minus A.
+
+![inter1](https://sun4-11.userapi.com/TDTMbUZRypOesb9V91vqSENp3gwWZXec5y1llA/NywmarAE3Z0.jpg "inter1")
