@@ -265,3 +265,23 @@ So we need to write the equation like this instead. Now it reads that **the line
 Example:
 
 ![params4](https://sun4-10.userapi.com/IOb3Vk9XswbziJcAn7bhhgQrYWdm6wZCAUJqBA/XJ_E9mm-G3Q.jpg "params4")
+
+### Planes
+
+While a line can be defined  by a point and one Vector, **A plane is defined by one point and two vectors thus.**
+
+![plane1](https://sun4-17.userapi.com/L6AgBWb-HdzxiX5TUVCQfBw8bIUv0R1T4VSZDw/zOpUVAOeloI.jpg "plane1")
+
+In proper mathematical therms, A plane is very much the same as a line as **it goes to infinity in all directions**.
+
+A polygon on the other hand is a finite space. 
+
+Any point on the plane can be defined by a combination of various lengths of the two given vectors. For example:
+
+![plane2](https://sun4-17.userapi.com/nqxbw7mVJclqMlk77WW_28qzadQn6Gkj2birzA/txo_fIJCWCA.jpg "plane2")
+![plane3](https://sun4-15.userapi.com/mRZ_FeyabXLu7jHTul49WhfXGsCwgwxAOIBWIg/VsWAGn-V85Y.jpg "plane3")
+![plane4](https://sun4-16.userapi.com/f0DRfp-eeYpj-UImSfKCGP2WTwp1eMa4Uk1rkQ/pllc2aiDejo.jpg "plane4")
+
+Parametric form for a plane is thus. **P at S , T equals A plus V multiplied by S plus U multiply by T**.
+
+![plane5](https://sun4-11.userapi.com/-T2C6JdBp5-tpKbuJc5ZL5wOSa03c_mee7ipxg/YaqY7jrBRj0.jpg "plane5")
