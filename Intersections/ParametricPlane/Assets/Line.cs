@@ -19,6 +19,13 @@ public class Line
         v = new Coords(B.x - A.x, B.y - A.y, B.z - A.z);
     }
 
+    public Line(Coords _A, Coords _v)
+    {
+        A = _A;
+        B = _A + _v;
+        v = _v;
+    }
+
     public Coords Lerp(float t)
     {
         if (type == LINETYPE.SEGMENT)
