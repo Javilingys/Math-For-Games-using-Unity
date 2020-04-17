@@ -285,3 +285,7 @@ Any point on the plane can be defined by a combination of various lengths of the
 Parametric form for a plane is thus. **P at S , T equals A plus V multiplied by S plus U multiply by T**.
 
 ![plane5](https://sun4-11.userapi.com/-T2C6JdBp5-tpKbuJc5ZL5wOSa03c_mee7ipxg/YaqY7jrBRj0.jpg "plane5")
+
+For example, if we need find a parametric form for a plane that passes through the point 0 0 0, 5 4 6, and -10 7 3 . First we need to work out the two vectors and so we can use these points to do that but we must create the vectors starting at the same point 0 0 0. Is just easiest for doing calculations.
+
+![plane6](https://sun4-10.userapi.com/QL-78mdKQkZaQO9UBUqfNGCZieapZLSpYvWxUw/m_ZpDR3EILM.jpg "plane6")
