@@ -319,3 +319,9 @@ Another useful property:
 * **is that the. For product of a perp vector and another can be rearranged to be negative of the perp of the other. And the dot product of the original vector**
 
 ![perp2](https://sun4-16.userapi.com/2RRF6-Lvkdr_5nvTtvKvmtjWfsN0p44zO2feEA/Ac2NDDTOYs0.jpg "perp2")
+
+Let's take a quick look at worked examples of these:
+
+* Thirst let's confirm that the dot product of a perp and its vector equal 0
+
+![perp3](https://sun4-17.userapi.com/l2AvG_-gOXYnAuAoaMhHqe2sLRQ2DcAemoa6Lw/jsDQQchJgSM.jpg "perp3")
