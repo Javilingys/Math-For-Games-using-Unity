@@ -23,7 +23,7 @@ public class Plane
     {
         A = _A;
         v = new Coords(V.x, V.y, V.z);
-        u = new Coords(U.x, U.x, U.z);
+        u = new Coords(U.x, U.y, U.z);
     }
 
     public Coords Lerp(float s, float t)
@@ -34,4 +34,5 @@ public class Plane
 
         return new Coords(xst, yst, zst);
     }
+
 }

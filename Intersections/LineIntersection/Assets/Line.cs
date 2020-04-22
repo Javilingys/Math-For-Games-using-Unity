@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Line
 {
-    Coords A;
+    public Coords A;
     Coords B;
-    Coords v;
+    public Coords v;
 
     public enum LINETYPE { LINE, SEGMENT, RAY};
     LINETYPE type;
@@ -19,21 +19,27 @@ public class Line
         v = new Coords(B.x - A.x, B.y - A.y, B.z - A.z);
     }
 
-    public Line(Coords _A, Coords _v)
+    public Line(Coords _A, Coords _V)
     {
         A = _A;
-        B = _A + _v;
-        v = _v;
+        v = _V;
+        B = _A + v;
+        type = LINETYPE.SEGMENT;
     }
+
 
     public float IntersectsAt(Line l)
     {
-        if (HolisticMath.Dot(Coords.Perp(l.v), v) == 0)
+        if(HolisticMath.Dot(Coords.Perp(l.v),v) == 0)
         {
             return float.NaN;
         }
         Coords c = l.A - this.A;
-        float t = HolisticMath.Dot(Coords.Perp(l.v), c)/ HolisticMath.Dot(Coords.Perp(l.v), v);
+        float t = HolisticMath.Dot(Coords.Perp(l.v), c) / HolisticMath.Dot(Coords.Perp(l.v), v);
+        if((t < 0 || t > 1) && type == LINETYPE.SEGMENT)
+        {
+            return float.NaN;
+        }
         return t;
     }
 
@@ -45,7 +51,7 @@ public class Line
     public Coords Lerp(float t)
     {
         if (type == LINETYPE.SEGMENT)
-            t = Mathf.Clamp(t, 0, 1); // t between 0 and 1
+            t = Mathf.Clamp(t, 0, 1);
         else if (type == LINETYPE.RAY && t < 0)
             t = 0;
 
@@ -55,4 +61,9 @@ public class Line
 
         return new Coords(xt, yt, zt);
     }
+
+    //3D Line Intersection Algorithm
+    //http://inis.jinr.ru/sl/vol1/CMC/Graphics_Gems_1,ed_A.Glassner.pdf
+
+
 }
