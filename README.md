@@ -325,3 +325,19 @@ Let's take a quick look at worked examples of these:
 * Thirst let's confirm that the dot product of a perp and its vector equal 0
 
 ![perp3](https://sun4-17.userapi.com/l2AvG_-gOXYnAuAoaMhHqe2sLRQ2DcAemoa6Lw/jsDQQchJgSM.jpg "perp3")
+
+* now let's work the other property
+
+![perp4](https://sun4-10.userapi.com/WKqyLPLm2mf3R2fONUMLcASujhFIWiTIhFiYgQ/1HC_s9xVYnA.jpg "perp4")
+
+Now we know about the perp vector and these two properties we can return to figuring out where the lines intersect:
+
+Now we can't solve either **t** or **s** unless we get rid of one of them. So let's go for the **t** first and I mean let's keep the **t** and get rid of the **s((. This means that we need to eliminate the term **us** in the equation. Now we have just learned a way to make this vector us zero. Yes it's multiplying itself with its perp. So we multiply both sides of the equation with the perp of u.
+
+![perp5](https://sun4-15.userapi.com/6ISL3hhfvhHt90ns-HsFT_D3NZ-H9-AwBZgmgQ/5PC7d8IF4yE.jpg "perp5")
+
+In this case we have use second property of perps that can eliminate the negative bu swapping around which vector is the perp.
+
+![perp6](https://sun4-15.userapi.com/t6Xv6GqwyPyhUWx0sR_NECuldexSqefLS7LQlg/t56yr6rBsJg.jpg "perp6")
+
+![perp7](https://sun4-16.userapi.com/4zWgwAFSdS3VpYAmalzB7d4KBbeBCMKEPlDy-g/XRtDLmP9_Go.jpg "perp7")
