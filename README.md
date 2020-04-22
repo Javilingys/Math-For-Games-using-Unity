@@ -299,3 +299,5 @@ In parametric form the line for **A** is **A + vt** , and the line for **B** is 
 To simplify this further in order to help us solve it we are going to remove the points **A and BB** and **replace them with vector**. Here we can rearrange the equation of vt equals B minus A plus us. Now we know from determining vectors that B minus A because it points is going to give us a vector from the point A to B. So we'll call this new vector **c** and substitute it into the equation in the place of B minus A.
 
 ![inter1](https://sun4-11.userapi.com/TDTMbUZRypOesb9V91vqSENp3gwWZXec5y1llA/NywmarAE3Z0.jpg "inter1")
+
+Look another principle of 2D vector. **The 2D Perp Vector**.
