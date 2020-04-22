@@ -364,3 +364,16 @@ If you find a couple of points on the plane by which to calculate the vector w y
 A line also have a point Normal Form. All you need it the starting and ending points of a line-segment on that line calculate the vector between them and then find the normal.
 
 ![lpint3](https://sun4-10.userapi.com/bmY5omMlw4DkG16ej2KAk0YvxU5vFGGpFMTG8g/_uJrgW_tZB4.jpg "lpint3")
+
+Now back to the problem at hand.
+
+To simplify thing we express the plain in point normal form as n dot (H - B) equals zero, **where** **H is the hit point**.
+
+Now we know that line for some value of t is going to intersect the hit point. So therefore the hit point also equals A plus w multiplied by t. Substituting this into the plane's normal form, we get n dot A plus w t minus B equals zero;
+
+![lpint4](https://sun4-11.userapi.com/aTQmG7XkCcw_-heyDciF3Tb-RzZz02449MQ2XQ/vGYKtbi7HkI.jpg "lpint4")
+
+* let's work though an example of finding this hit point by hand.
+
+**we have**:
+![lpint5](https://sun4-17.userapi.com/cXs9xk4yAoH7fKYqoUfPMqmGgG1mbYYyH7DNiQ/p4JQKVQ3-cY.jpg "lpint5")
