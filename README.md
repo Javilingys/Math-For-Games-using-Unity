@@ -380,3 +380,12 @@ Now we know that line for some value of t is going to intersect the hit point. S
 
 * First, we need a couple of vectors that will define a plane. So let's calculate **v** vector from **B** and **D** and **u** the vector from **B** to **E**. Remember the vector is the destination point minus the starting point. Therefore v will be D - B;
 ![lpint6](https://sun4-11.userapi.com/RoeprIjT4SzvN32JIDsQUc0Ue6zaP_yXVuTMGA/gDfmN40lp8E.jpg "lpint6")
+
+* Well, let's move on and find out what **w** is **w** is the vector from **A** to **C**:
+![lpint6](https://sun4-10.userapi.com/NnPPX1pDC6MqfiISbZWQjxXJ_BVl9yrdlov4yQ/-0G3WnthzSo.jpg "lpint6")
+
+* Now to work out the value of **t** . According to our equation, we're only missing **n** which is the normal to the plane. The normal is calculated from the cross product of the vectors that define the plane. Which in the case **v and u**.
+![lpint7](https://sun4-17.userapi.com/TCFqSdn0dTy6dgZEjBn7JazQ1NoauKZ0Dzlm6A/UhhH-DTgFCE.jpg "lpint7")
+
+* finally get this:
+![lpint8](https://sun4-10.userapi.com/vmlA_s8p5zfzjh_flX_5A_2S2bNfeW3zFYQJVg/qHJeWallowM.jpg "lpint8")
