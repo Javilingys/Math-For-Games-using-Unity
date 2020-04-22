@@ -28,6 +28,10 @@ public class Line
 
     public float IntersectsAt(Line l)
     {
+        if (HolisticMath.Dot(Coords.Perp(l.v), v) == 0)
+        {
+            return float.NaN;
+        }
         Coords c = l.A - this.A;
         float t = HolisticMath.Dot(Coords.Perp(l.v), c)/ HolisticMath.Dot(Coords.Perp(l.v), v);
         return t;
