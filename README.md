@@ -377,3 +377,6 @@ Now we know that line for some value of t is going to intersect the hit point. S
 
 **we have**:
 ![lpint5](https://sun4-17.userapi.com/cXs9xk4yAoH7fKYqoUfPMqmGgG1mbYYyH7DNiQ/p4JQKVQ3-cY.jpg "lpint5")
+
+* First, we need a couple of vectors that will define a plane. So let's calculate **v** vector from **B** and **D** and **u** the vector from **B** to **E**. Remember the vector is the destination point minus the starting point. Therefore v will be D - B;
+![lpint6](https://sun4-11.userapi.com/RoeprIjT4SzvN32JIDsQUc0Ue6zaP_yXVuTMGA/gDfmN40lp8E.jpg "lpint6")
