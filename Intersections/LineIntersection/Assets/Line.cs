@@ -27,6 +27,14 @@ public class Line
         type = LINETYPE.SEGMENT;
     }
 
+    public float IntersectsAt(Plane p)
+    {
+        Coords normal = HolisticMath.Cross(p.u, p.v);
+        if (HolisticMath.Dot(normal, v) == 0)
+            return float.NaN;
+        float t = HolisticMath.Dot(normal, p.A - A) / HolisticMath.Dot(normal, v);
+        return t;
+    }
 
     public float IntersectsAt(Line l)
     {

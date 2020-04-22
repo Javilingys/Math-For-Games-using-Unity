@@ -30,6 +30,13 @@ public class CreatePlaneHit : MonoBehaviour
                 sphere.transform.position = plane.Lerp(s, t).ToVector();
             }
         }
+
+        float interceptT = L1.IntersectsAt(plane);
+        if (interceptT == interceptT)
+        {
+            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            cube.transform.position = L1.Lerp(interceptT).ToVector();
+        }
     }
 
     // Update is called once per frame
