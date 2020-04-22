@@ -71,7 +71,7 @@ public class Coords {
 
     static public Coords Perp(Coords v)
     {
-        return new Coords(-v.y, v.x, -1.0f);
+        return new Coords(-v.y, v.x, 0);
     }
 
     static public void DrawLine(Coords startPoint, Coords endPoint, float width, Color colour)
