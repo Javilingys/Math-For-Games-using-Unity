@@ -29,6 +29,11 @@ public class Coords {
         z = vecpos.z;
     }
 
+    public Coords GetNormal()
+    {
+        float magnitude = HolisticMath.Distance(new Coords(0, 0, 0), new Coords(x, y, x));
+        return new Coords(x / magnitude, y / magnitude, z / magnitude);
+    }
    
     public override string ToString()
     {
@@ -49,6 +54,18 @@ public class Coords {
     static public Coords operator- (Coords a, Coords b)
     {
         Coords c = new Coords(a.x - b.x, a.y - b.y, a.z - b.z);
+        return c;
+    }
+
+    static public Coords operator *(Coords a, float b)
+    {
+        Coords c = new Coords(a.x * b, a.y * b, a.z * b);
+        return c;
+    }
+
+    static public Coords operator /(Coords a, float b)
+    {
+        Coords c = new Coords(a.x / b, a.y / b, a.z / b);
         return c;
     }
 
