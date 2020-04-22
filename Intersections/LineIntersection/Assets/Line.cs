@@ -29,10 +29,13 @@ public class Line
 
     public Coords Reflect(Coords normal)
     {
+
         Coords norm = normal.GetNormal();
         Coords vnorm = v.GetNormal();
 
         float d = HolisticMath.Dot(norm, vnorm);
+
+        if (d == 0) return v;
 
         float vn2 = d * 2;
         Coords r = vnorm - norm * vn2;
