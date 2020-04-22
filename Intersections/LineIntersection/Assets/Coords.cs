@@ -29,6 +29,7 @@ public class Coords {
         z = vecpos.z;
     }
 
+   
     public override string ToString()
     {
         return"(" + x + "," + y + "," + z +")";
@@ -53,7 +54,7 @@ public class Coords {
 
     static public Coords Perp(Coords v)
     {
-        return new Coords(-v.y, v.x);
+        return new Coords(-v.y, v.x, -1.0f);
     }
 
     static public void DrawLine(Coords startPoint, Coords endPoint, float width, Color colour)
