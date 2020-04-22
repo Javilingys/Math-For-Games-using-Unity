@@ -341,3 +341,7 @@ In this case we have use second property of perps that can eliminate the negativ
 ![perp6](https://sun4-15.userapi.com/t6Xv6GqwyPyhUWx0sR_NECuldexSqefLS7LQlg/t56yr6rBsJg.jpg "perp6")
 
 ![perp7](https://sun4-16.userapi.com/4zWgwAFSdS3VpYAmalzB7d4KBbeBCMKEPlDy-g/XRtDLmP9_Go.jpg "perp7")
+
+**So the only time 2D lines won't intersect at some point is if they are parallel. We can tell if the lines are parallel as the perp of one of the vectors will sit at 90 degrees to the other** This means in this case, that u perp dot v would give us a zero.
+
+![perp8](https://sun4-15.userapi.com/TehOtWfBx9L5zAGwKwsZkDJMHXr9AXGkV3SWwA/qOD3I5fpIao.jpg "perp8")
