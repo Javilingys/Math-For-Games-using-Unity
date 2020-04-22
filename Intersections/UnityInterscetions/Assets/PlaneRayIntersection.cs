@@ -6,9 +6,8 @@ public class PlaneRayIntersection : MonoBehaviour
 {
     public GameObject sphere;
     public GameObject quad;
-    //public Transform corner1;
-    //public Transform corner2;
-    //public Transform corner3;
+    public GameObject[] fences;
+    Vector3[] fenceNormals;
 
     Plane mPlane;
 
@@ -16,12 +15,15 @@ public class PlaneRayIntersection : MonoBehaviour
     void Start()
     {
         Vector3[] vertices = quad.GetComponent<MeshFilter>().mesh.vertices;
-        mPlane = new Plane(quad.transform.TransformPoint(vertices[0]),
-                            quad.transform.TransformPoint(vertices[1]),
-                            quad.transform.TransformPoint(vertices[2]));
-        Debug.Log(vertices[0]);
-        Debug.Log(vertices[1]);
-        Debug.Log(vertices[2]);
+        mPlane = new Plane(quad.transform.TransformPoint(vertices[0]) + new Vector3(0, 0.3f, 0),
+                            quad.transform.TransformPoint(vertices[1]) + new Vector3(0, 0.3f, 0),
+                            quad.transform.TransformPoint(vertices[2]) + new Vector3(0, 0.3f, 0));
+        fenceNormals = new Vector3[fences.Length];
+        for(int i = 0; i < fences.Length; i++)
+        {
+            Vector3 normal = fences[i].GetComponent<MeshFilter>().mesh.normals[0];
+            fenceNormals[i] = fences[i].transform.TransformVector(normal);
+        }
     }
 
     // Update is called once per frame
@@ -35,7 +37,16 @@ public class PlaneRayIntersection : MonoBehaviour
             if(mPlane.Raycast(ray, out t))
             {
                 Vector3 hitPoint = ray.GetPoint(t);
-                sphere.transform.position = hitPoint;
+
+                bool inside = true;
+                for (int i = 0; i < fences.Length; i++)
+                {
+                    Vector3 hitPointToFence = fences[i].transform.position - hitPoint;
+                    inside = inside && Vector3.Dot(hitPointToFence, fenceNormals[i]) <= 0;
+                }
+                  
+                if(inside)
+                    sphere.transform.position = hitPoint;
             }
         }
     }
