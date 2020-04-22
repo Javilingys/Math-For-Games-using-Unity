@@ -26,6 +26,13 @@ public class Line
         v = _v;
     }
 
+    public float IntersectsAt(Line l)
+    {
+        Coords c = l.A - this.A;
+        float t = HolisticMath.Dot(Coords.Perp(l.v), c)/ HolisticMath.Dot(Coords.Perp(l.v), v);
+        return t;
+    }
+
     public void Draw(float width, Color col)
     {
         Coords.DrawLine(A, B, width, col);
