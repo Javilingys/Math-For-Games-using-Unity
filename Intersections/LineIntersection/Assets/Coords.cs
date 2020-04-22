@@ -29,6 +29,11 @@ public class Coords {
         z = vecpos.z;
     }
 
+    public Coords GetNormal()
+    {
+        float magnitude = HolisticMath.Distance(new Coords(0, 0, 0), new Coords(x, y, x));
+        return new Coords(x / magnitude, y / magnitude, z / magnitude);
+    }
    
     public override string ToString()
     {
@@ -52,9 +57,21 @@ public class Coords {
         return c;
     }
 
+    static public Coords operator *(Coords a, float b)
+    {
+        Coords c = new Coords(a.x * b, a.y * b, a.z * b);
+        return c;
+    }
+
+    static public Coords operator /(Coords a, float b)
+    {
+        Coords c = new Coords(a.x / b, a.y / b, a.z / b);
+        return c;
+    }
+
     static public Coords Perp(Coords v)
     {
-        return new Coords(-v.y, v.x, -1.0f);
+        return new Coords(-v.y, v.x, 0);
     }
 
     static public void DrawLine(Coords startPoint, Coords endPoint, float width, Color colour)

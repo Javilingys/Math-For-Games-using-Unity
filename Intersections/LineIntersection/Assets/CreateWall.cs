@@ -33,6 +33,11 @@ public class CreateWall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       ball.transform.position = trajectory.Lerp(Time.time).ToVector();
+        if (Time.time <= 1)
+            ball.transform.position = trajectory.Lerp(Time.time).ToVector();
+        else
+        {
+            ball.transform.position += trajectory.Reflect(Coords.Perp(wall.v)).ToVector() * Time.deltaTime * 10f;
+        }
     }
 }

@@ -25,7 +25,6 @@ public class CreateLines : MonoBehaviour
         }
 
         Debug.Log("T:" + intersectT + " S:" + intersectS);
-
     }
 
     // Update is called once per frame
