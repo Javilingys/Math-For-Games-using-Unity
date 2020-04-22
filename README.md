@@ -301,3 +301,21 @@ To simplify this further in order to help us solve it we are going to remove the
 ![inter1](https://sun4-11.userapi.com/TDTMbUZRypOesb9V91vqSENp3gwWZXec5y1llA/NywmarAE3Z0.jpg "inter1")
 
 Look another principle of 2D vector. **The 2D Perp Vector**.
+
+The 2D perp vector is a vector that sits perpendicular that's 90 degrees to another. And it's easily found by **simply exchanging the x and y values and negating on of them.**
+
+The notation for the perp vector is the vector name, in this case **v**, super scripted with an **upside down T** that signifies the perpendicular set of lines.
+
+Fo example: for the vector **9 7** - the perp vector is **-7 9**.
+
+![perp1](https://sun4-17.userapi.com/KaEQUF_WZJ57f210z0zzzsqZ9RjB80L-6-O4Og/hB6_rXQ5hq4.jpg "perp1")
+
+In the case of negating the original x value we end up with a perp then is 90 degrees chounreclockwise in rotation from the original v.
+
+Among the useful properties of perp vectors that we are going to exploit to solve the issue at hand, witch is finding the line line intersection.. 
+* **Is that the dot product between a vector and its perp will be zero, as any two vectors that produce a dot product of zero are at 90 degrees to one another**;
+
+Another useful property:
+* **is that the. For product of a perp vector and another can be rearranged to be negative of the perp of the other. And the dot product of the original vector**
+
+![perp2](https://sun4-16.userapi.com/2RRF6-Lvkdr_5nvTtvKvmtjWfsN0p44zO2feEA/Ac2NDDTOYs0.jpg "perp2")
