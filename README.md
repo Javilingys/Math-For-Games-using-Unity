@@ -345,3 +345,22 @@ In this case we have use second property of perps that can eliminate the negativ
 **So the only time 2D lines won't intersect at some point is if they are parallel. We can tell if the lines are parallel as the perp of one of the vectors will sit at 90 degrees to the other** This means in this case, that u perp dot v would give us a zero.
 
 ![perp8](https://sun4-15.userapi.com/TehOtWfBx9L5zAGwKwsZkDJMHXr9AXGkV3SWwA/qOD3I5fpIao.jpg "perp8")
+
+### Line-Plane Intersections
+
+If we wanted a term and where a line Ray or line-segment intersects with a plane, we need to find: A + w*t = B + v*a + u*e:
+
+![lpint1](https://sun4-15.userapi.com/w0oC3m2SDgSzB_lyDnCem8rPcbXIpax6p1Ls5Q/zsN-WuJUXCg.jpg "lpint1")
+
+For solving this we need:
+
+First we need to change the way we look at the plane that involves returning to the idea of normals that we touched on briefly when looking at the cross product recall. ** The cross product of two vectors gives a third vector that sits at 90 degrees to the other**. 
+**n** will always sit perpendicular to the plane divined by **v** and **w**. Now because **n** is perpendicular to both, **v and w** we know that **n dot w equals 0 and n dot v = 0**.
+
+If you find a couple of points on the plane by which to calculate the vector w you can then use these and substitute them into the previous equation to get n dot B minus p equals zero.:
+
+![lpint2](https://sun4-17.userapi.com/Wo4IpNb0PNk3R1XnrVC1gSmk1mJ2B9fWlZQp0w/nl2ZhD8rvwU.jpg "lpint2")
+
+A line also have a point Normal Form. All you need it the starting and ending points of a line-segment on that line calculate the vector between them and then find the normal.
+
+![lpint3](https://sun4-10.userapi.com/bmY5omMlw4DkG16ej2KAk0YvxU5vFGGpFMTG8g/_uJrgW_tZB4.jpg "lpint3")
