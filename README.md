@@ -389,3 +389,18 @@ Now we know that line for some value of t is going to intersect the hit point. S
 
 * finally get this:
 ![lpint8](https://sun4-10.userapi.com/vmlA_s8p5zfzjh_flX_5A_2S2bNfeW3zFYQJVg/qHJeWallowM.jpg "lpint8")
+
+## 6. Affine Transformation
+
+### An Introduction to Matrices
+
+Matrices are a fundamental concept in computer graphics and are using in pretty much all calculations involving moving and locating objects.
+
+A matrix is a rectangular array of numbers with a set amount of rows and columns.
+
+Examples:
+![matrix1](https://sun4-12.userapi.com/V6Br4sPXxWzKZlV-1V4vMig8iuBe6COkEa764A/KcsHmx4knBo.jpg "matrix1")
+
+* a one row matrix is called a **row vector**, and a one column matrix is called  **column vector**
+
+![matrix2](https://sun4-16.userapi.com/t7iTi-EjEi_LijVw0Rc1oAkyQ9MI3zq8s_uc2A/pJ5djthQqfc.jpg "matrix2")
