@@ -480,16 +480,22 @@ Unlike translation that is a matrix addition, scaling is a multiplication. An ob
 
 * Rotation in 2D space:
 
-![scale1](https://sun4-16.userapi.com/Ay6TAjGvnqNmF1ViL5PuING61s1csxdjX9TK9A/cklBkqhynzs.jpg "scale1")
+![rotate1](https://sun4-16.userapi.com/Ay6TAjGvnqNmF1ViL5PuING61s1csxdjX9TK9A/cklBkqhynzs.jpg "rotate1")
 
 * A roll Around the Z Axis in 3D Space:
 
-![scale1](https://sun4-17.userapi.com/clFbeMrxeNM96ELO1xjp0S9w_S_TNBqD-FtI8g/soUHFT70C98.jpg "scale1")
+![rotate2](https://sun4-17.userapi.com/clFbeMrxeNM96ELO1xjp0S9w_S_TNBqD-FtI8g/soUHFT70C98.jpg "rotate2")
 
 * A Y-Roll (Yaw)
 
-![scale1](https://sun4-12.userapi.com/4_FJVT9adjUdY2S-ouY8FVqLKUSvNvMX8nFZuQ/TwMP2IuDLPY.jpg "scale1")
+![rotate3](https://sun4-12.userapi.com/4_FJVT9adjUdY2S-ouY8FVqLKUSvNvMX8nFZuQ/TwMP2IuDLPY.jpg "rotate3")
 
 * A X-Roll (Pitch)
 
-![scale1](https://sun4-10.userapi.com/fWvgdsXEkO5EvxzO9E1ka373F7Bd9HkjamkqxQ/06dYuzZx6YY.jpg "scale1")
+![rotate4](https://sun4-10.userapi.com/fWvgdsXEkO5EvxzO9E1ka373F7Bd9HkjamkqxQ/06dYuzZx6YY.jpg "rotate4")
+
+To build a complex rotational matrix that rotates around all angels, we multiplied the X-Roll Y-Roll and Z-Roll matrices together like this, there angle theta is a X-Roll, Alpha the Y-Roll and Beta is the Z-Roll.
+
+![rotate5](https://sun4-17.userapi.com/ziA12QvU23WTVK0Hkr66Ou-YhqRNA6Wp0CFLjA/ziy2Ll2-Jw4.jpg "rotate5")
+
+This angles **Theta, Alpha and Beta** are called **Euler Angles**.
