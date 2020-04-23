@@ -404,3 +404,16 @@ Examples:
 * a one row matrix is called a **row vector**, and a one column matrix is called  **column vector**
 
 ![matrix2](https://sun4-16.userapi.com/t7iTi-EjEi_LijVw0Rc1oAkyQ9MI3zq8s_uc2A/pJ5djthQqfc.jpg "matrix2")
+
+A square matrix which is the most common type used in computer game calculations. Is one with the same number of rows as it has columns. Two default share matrices often used: are the **zero matrix** and **the identity matrix.
+
+![matrix3](https://sun4-16.userapi.com/MWj-HQgpOcYtMCUhO35s88wwN6QEGQERv85XdQ/aMOJW3D0bL4.jpg "matrix3")
+
+* **Matrix calculations**
+* Scaling
+ ![matrix4](https://sun4-15.userapi.com/MJaAOUxO0kmP6A0hv954lRgjDV-PreT2vmpNqg/fWEwffI_uSU.jpg "matrix4")
+
+* Addition and Substruction
+
+Matrices can also be added and subtracted **but only when both matrices are the same shape**. That means they must have the same number of rows and columns.
+![matrix5](https://sun4-15.userapi.com/yP83X_aMIqU12STcEyz6e0bOGFRCqSZNtyR_Xw/gq8_oLUtMcE.jpg "matrix5")
