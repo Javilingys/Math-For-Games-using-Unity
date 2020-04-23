@@ -453,3 +453,11 @@ A point on the other hand is always defined relative to the origin. It still has
 Now it's useful in calculations if vectors and points are represented in the same format. So instead of x y z like we have been using in the past, we're moving to x y z and w. Where **w** is 0 for a vector and 1 for a point.
 
 ![homo3](https://sun4-16.userapi.com/Y0yY698YZyn2PlrvfUezQq9KljC9lYTZ7tA3Wg/1xSFIm8kbBQ.jpg "homo3")
+
+Let me show you why. We can rewrite our vector and point equations like this to include the **w** value. Then w is 0 for v, the origin is not included in the calculation. As anything multiplied by zero will give a zero. But when it is one for the point, the origin will then e taken into consideration. We can write Matrix format for the **v** calculation and Matrix format for the **p** calculation:
+
+![homo4](https://sun4-12.userapi.com/EPePYKKqT6e1wfJoyakiwdPViwWrBnHkzTU9pw/rH-E0mtlxK8.jpg "homo4")
+
+* Homogeneous Representation:
+
+![homo5](https://sun4-17.userapi.com/P0Xy_3CtILfcQ3WT5VyhDrFoYwWV3pSU1hwfYA/S5nY595FRhU.jpg "homo5")
