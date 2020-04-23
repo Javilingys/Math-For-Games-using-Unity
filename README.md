@@ -450,3 +450,6 @@ A point on the other hand is always defined relative to the origin. It still has
 
 ![homo2](https://sun4-11.userapi.com/S222C9rbDZkewQLP5nuXa1xOrBW-8WLnhZQaYQ/0X-C05zUAkE.jpg "homo2")
 
+Now it's useful in calculations if vectors and points are represented in the same format. So instead of x y z like we have been using in the past, we're moving to x y z and w. Where **w** is 0 for a vector and 1 for a point.
+
+![homo3](https://sun4-16.userapi.com/Y0yY698YZyn2PlrvfUezQq9KljC9lYTZ7tA3Wg/1xSFIm8kbBQ.jpg "homo3")
