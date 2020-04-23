@@ -411,9 +411,11 @@ A square matrix which is the most common type used in computer game calculations
 
 * **Matrix calculations**
 * Scaling
+
  ![matrix4](https://sun4-15.userapi.com/MJaAOUxO0kmP6A0hv954lRgjDV-PreT2vmpNqg/fWEwffI_uSU.jpg "matrix4")
 
 * Addition and Substruction
 
 Matrices can also be added and subtracted **but only when both matrices are the same shape**. That means they must have the same number of rows and columns.
+
 ![matrix5](https://sun4-15.userapi.com/yP83X_aMIqU12STcEyz6e0bOGFRCqSZNtyR_Xw/gq8_oLUtMcE.jpg "matrix5")
