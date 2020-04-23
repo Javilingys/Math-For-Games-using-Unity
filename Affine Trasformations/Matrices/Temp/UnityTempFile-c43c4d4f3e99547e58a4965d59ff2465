@@ -293,6 +293,8 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/Coords.cs"
+"Assets/Scripts/CreateMatrix.cs"
 "Assets/Scripts/HolisticMath.cs"
 "Assets/Scripts/Line.cs"
+"Assets/Scripts/Matrix.cs"
 "Assets/Scripts/Plane.cs"
