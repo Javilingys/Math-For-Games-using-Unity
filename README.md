@@ -439,3 +439,14 @@ Multiplication matrix is easy. We basically take each row of the first Matrix an
 * and so on.. Finally we get this matrix:
 
 ![matrix9](https://sun4-16.userapi.com/A3f3UZ_ryIcWC7BJWMYVKweI2jFANu_nZ_L8rg/Q-A-aOnKsZ0.jpg "matrix9")
+
+### Homogeneous Coordinates
+
+A vector in such a frame is defined in pretty much the same way except its components are measured according ti its local axis. The x component is a multiple of the x axis the y component is a multiple of the y axis and the z component is a multiple of the z axis. The origin is doesn't matter, because remember vectors don't have a location.
+
+![homo1](https://sun4-10.userapi.com/lI-DjqI4rAonEDOeJZar6Rcnfz_txen8r5Q4wQ/5WTK8yQAb0Y.jpg "homo1")
+
+A point on the other hand is always defined relative to the origin. It still has an x y and z component, but it is location dependent. When it was relative to the origin 0 0 0 as we always assumed before x y and z values were fine. But move the origin and the point becomes origin plus p.x*x + p.y*y + p.z*z
+
+![homo2](https://sun4-11.userapi.com/S222C9rbDZkewQLP5nuXa1xOrBW-8WLnhZQaYQ/0X-C05zUAkE.jpg "homo2")
+
