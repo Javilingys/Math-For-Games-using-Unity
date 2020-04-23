@@ -409,7 +409,7 @@ A square matrix which is the most common type used in computer game calculations
 
 ![matrix3](https://sun4-16.userapi.com/MWj-HQgpOcYtMCUhO35s88wwN6QEGQERv85XdQ/aMOJW3D0bL4.jpg "matrix3")
 
-* **Matrix calculations**
+**Matrix calculations**
 * Scaling
 
  ![matrix4](https://sun4-15.userapi.com/MJaAOUxO0kmP6A0hv954lRgjDV-PreT2vmpNqg/fWEwffI_uSU.jpg "matrix4")
@@ -419,3 +419,23 @@ A square matrix which is the most common type used in computer game calculations
 Matrices can also be added and subtracted **but only when both matrices are the same shape**. That means they must have the same number of rows and columns.
 
 ![matrix5](https://sun4-15.userapi.com/yP83X_aMIqU12STcEyz6e0bOGFRCqSZNtyR_Xw/gq8_oLUtMcE.jpg "matrix5")
+
+Another concept to use when working with matrices is that of the transposed version. Because sometimes you need to turn a matrix on its side. The transpose of a matrix is **when the values in the rows are interchanged with values in the columns**.
+
+![matrix6](https://sun4-17.userapi.com/-0SqU9UVMbK7UYVkgF4JDCh5FN2-IX1MY65NoQ/Y1QakzDT3kU.jpg "matrix6")
+
+Matrix multiplication is the crux of many many many operations that occur in computer graphics and games. Two matrices **can only be multiplied together if the can form**. That means that the number of columns in the first Matrix **must** equal the number of rows in the second Matrix. 
+
+Multiplication matrix is easy. We basically take each row of the first Matrix and find the dot product of it and the columns of the second matrix. 
+
+* First calculation will be between first row of first matrix and first column of second matrix.
+
+![matrix7](https://sun4-15.userapi.com/2MTGZqfuO-VTSFxLhRLLUTC1vnrzXHkziGYIrA/x2vis-3mtUo.jpg "matrix7")
+
+* Now we do the first row and the second column.
+
+![matrix8](https://sun4-16.userapi.com/rZs2XmgFe0coIZTv7V7W5ET0TZS4mWr3AHhdfA/Rw07-YLUytE.jpg "matrix8")
+
+* and so on.. Finally we get this matrix:
+
+![matrix9](https://sun4-16.userapi.com/A3f3UZ_ryIcWC7BJWMYVKweI2jFANu_nZ_L8rg/Q-A-aOnKsZ0.jpg "matrix9")
