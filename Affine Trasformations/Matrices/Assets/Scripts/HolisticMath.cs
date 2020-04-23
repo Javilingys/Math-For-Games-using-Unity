@@ -106,6 +106,19 @@ public class HolisticMath
         return result.asCoords();
     }
 
+    static public Coords Scale(Coords position, float scaleX, float scaleY, float scaleZ)
+    {
+        float[] scaleValues = {scaleX, 0, 0, 0,
+                                  0, scaleY, 0, 0,
+                                  0, 0, scaleZ, 0,
+                                  0, 0, 0, 1};
+        Matrix scaleMatrix = new Matrix(4, 4, scaleValues);
+        Matrix pos = new Matrix(4, 1, position.AsFloats());
+
+        Matrix result = scaleMatrix * pos;
+        return result.asCoords();
+    }
+
     static public Coords Cross(Coords vector1, Coords vector2)
     {
         float xMult = vector1.y * vector2.z - vector1.z * vector2.y;
