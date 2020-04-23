@@ -461,3 +461,35 @@ Let me show you why. We can rewrite our vector and point equations like this to 
 * Homogeneous Representation:
 
 ![homo5](https://sun4-17.userapi.com/P0Xy_3CtILfcQ3WT5VyhDrFoYwWV3pSU1hwfYA/S5nY595FRhU.jpg "homo5")
+
+### Transformations
+
+**Translation**
+
+Translation is the movement of an object along one or more axes and changes its position. We do this by adding a vector to a point to get from point P to point Q, where Q = P + v. We can switch to matrix form:
+
+![transl2](https://sun4-11.userapi.com/TDzH99HoCgMEoe5wGAsLZJdJiUZQuDKwSGq9mg/m84R4KGPTZ8.jpg "transl1")
+
+**Scaling**
+
+Unlike translation that is a matrix addition, scaling is a multiplication. An object is scale by multiplying its values along one or more directions. To scale a point the operation takes its x y and z and multiplies it by a matrix that will only affect each individual component, like this:
+
+![scale1](https://sun4-12.userapi.com/_75aqsVIyfbMY1VBfycG4y7S1PtQ4ufGPiwTzg/W0O2G_eTUDM.jpg "scale1")
+
+**Rotation**
+
+* Rotation in 2D space:
+
+![scale1](https://sun4-16.userapi.com/Ay6TAjGvnqNmF1ViL5PuING61s1csxdjX9TK9A/cklBkqhynzs.jpg "scale1")
+
+* A roll Around the Z Axis in 3D Space:
+
+![scale1](https://sun4-17.userapi.com/clFbeMrxeNM96ELO1xjp0S9w_S_TNBqD-FtI8g/soUHFT70C98.jpg "scale1")
+
+* A Y-Roll (Yaw)
+
+![scale1](https://sun4-12.userapi.com/4_FJVT9adjUdY2S-ouY8FVqLKUSvNvMX8nFZuQ/TwMP2IuDLPY.jpg "scale1")
+
+* A X-Roll (Pitch)
+
+![scale1](https://sun4-10.userapi.com/fWvgdsXEkO5EvxzO9E1ka373F7Bd9HkjamkqxQ/06dYuzZx6YY.jpg "scale1")
