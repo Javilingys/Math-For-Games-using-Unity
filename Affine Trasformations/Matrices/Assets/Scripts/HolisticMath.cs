@@ -93,6 +93,19 @@ public class HolisticMath
         return new Coords(xVal, yVal, zVal);
     }
 
+    static public Coords Translate(Coords position, Coords vector)
+    {
+        float[] translateValue = {1, 0, 0, vector.x,
+                                  0, 1, 0, vector.y,
+                                  0, 0, 1, vector.z,
+                                  0, 0, 0, 1};
+        Matrix translateMatrix = new Matrix(4, 4, translateValue);
+        Matrix pos = new Matrix(4, 1, position.AsFloats());
+
+        Matrix result = translateMatrix * pos;
+        return result.asCoords();
+    }
+
     static public Coords Cross(Coords vector1, Coords vector2)
     {
         float xMult = vector1.y * vector2.z - vector1.z * vector2.y;
