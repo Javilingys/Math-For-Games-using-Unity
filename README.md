@@ -1,9 +1,27 @@
 # Math-For-Games-using-Unity
  Mathematics for Computer Games Development using Unity
 
-## 1. Introduction and Welcome
+## Content:
+* [1 - Introduction and Welcome](#intro)
+  * [1.1 - Properties of Right Angle Triangles](#prop_triangle)
+* [2 - Bitwise Operations](#bitwise_operations)
+  * [2.1 - Bit Packing](#packing)
+  * [2.2 - Bit Unpacking](#unpacking)
+* [3 - Locations](#locations)
+  * [3.1 - Cartesian Coordinates & Points](#cartesian_coords)
+  * [3.2 - Calculating Distance](#calculating_distance)
+* [4 - Vectors](#vectors)
+  * [4.1 - Vectors Moving to a Point](#vector_moving)
+  * [4.2 - Vector Normal Form](#vector_normal_form)
+  * [4.3 - Dot Product](#dot_product)
+  * [4.4 - Vector Rotations](#vector_rotations)
+  * [4.5 - Cross Product](#cross_product)
+  * [4.6 - Moving from 2D to 3D](#from_2d_to_3d)
+* [5 - Intersections](#intersections)
 
-### Properties of Right Angle Triangles
+## 1. Introduction and Welcome <a name="intro"></a>
+
+### Properties of Right Angle Triangles <a name="prop_triangle"></a>
 
 ![right angle triangle](https://sun9-12.userapi.com/lXtL2FO7JALx-BBrHQIn4Ofn1IlYeLQapLLGOA/uswXBPIIdlQ.jpg "right angle triangle")
 
@@ -13,7 +31,7 @@ The formula are:
 
 ![formulas](https://sun9-15.userapi.com/E_qhssr9e7hUZRlHHdRgF2_cvk32y0qrOIhAEA/J3sCXgMhBcs.jpg "formulas")
 
-## 2. Bitwise Operations
+## 2. Bitwise Operations <a name="bitwise_operations"></a>
 
 ![basicbitwice](https://sun4-16.userapi.com/JPocCvFKrA0U5d5bIcDdVwtL9CSB-eY2RdbsSg/zxkE-4anhAQ.jpg "basicbitwise")
 
@@ -21,7 +39,7 @@ The formula are:
 
 ![example1](https://sun9-55.userapi.com/wAFSCJheGi387c-jD0j5yQbdsTVn7BRCeSLWmA/8kxb97G7-Lc.jpg "example1")
 
-### Bit Packing
+### Bit Packing <a name="packing"></a>
 
 For example: We have a three values **A = 1001111**, **B = 10110**, **C = 0011** (Length of these values = 16); And we want to pack these values into 16-bit value X:
 
@@ -41,7 +59,7 @@ For example: We have a three values **A = 1001111**, **B = 10110**, **C = 0011**
 
 ![packingInt](https://sun4-10.userapi.com/QxN1ilg4--XRv4T1GwViz9J2tebRdpJNnCdOjA/vRNUMu5zqO0.jpg "packingInt")
 
-### Bit UnPacking
+### Bit UnPacking <a name="unpacking"></a>
 
 For unpacking bits we need create a mask that will get all of the you're interested in for each value, and shifting to right. Example:
 
@@ -63,9 +81,9 @@ For unpacking bits we need create a mask that will get all of the you're interes
 
 ![togglinXOR](https://sun4-17.userapi.com/WGr1CdaMistavHrQK9Fcmb7sEA2l2VmdS5idMw/QEM96hJae7A.jpg "togglingXOR")
 
-## 3. Locations
+## 3. Locations <a name ="locations"></a>
 
-### Cartesian Coordinates & Points
+### Cartesian Coordinates & Points <a name ="cartesian_coords"></a>
 
 * A point in the Cartesian space is denoted by its distance along the **x** axis followed by its distance along the **y** coordinate for the point is written **X Y**. 
 For Example:
@@ -88,7 +106,7 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 
 ![cartCoord4](https://sun4-17.userapi.com/Z-E_WSGrtBPIyDoe6Mxed9gE2dpzzzMHTbOxHA/vqpyV4Ji0_8.jpg "cartCoord4")
 
-### Calculating Distance
+### Calculating Distance <a name="calculating_distance"></a>
 
 * For calculate distance between two objects, you can use **Pythagorean theorem** :
 
@@ -96,7 +114,7 @@ The **X** coordinate must and always comes first followed by the **Y**. The defi
 
 ![distance2](https://sun4-15.userapi.com/SgmOL09jy6KSIRCJkR8FriS8mzYfrD5y5GeBRA/29huVA-i650.jpg "distance2")
 
-## 4. Vectors
+## 4. Vectors <a name="vectors"></a>
 
 ### Introduction to Vectors
 
@@ -144,13 +162,13 @@ If we multiply by a smaller value such as zero point five or negative zero point
 
 ![unityspec1](https://sun4-17.userapi.com/z26nCTxy0-WDnyVob0mI-xVFbnrBhqxQLXYooQ/x-IF9eInjz8.jpg "unityspec2")
 
-### Vectors Moving to a Point
+### Vectors Moving to a Point <a name="vector_moving"></a>
 
 * Find direction:
 
 ![vmove1](https://sun4-10.userapi.com/iKUdHK8OOFh02QUl-lSm8I_mWCW4OalxWkA_Sg/O0lVjgcOYbU.jpg "vmove1")
 
-### Vector Normal Form
+### Vector Normal Form <a name="vector_normal_form"></a>
 
 Calculate in the normal of a vector requires knowing the vectors direction as well as its magnitude. Now what we want to do is find another vector that is travelling in exactly the same direction buy has a **length of one.** **This is normal**
 
@@ -164,7 +182,7 @@ So the **V with little hat above** it means **the normal form of v the vector**.
 
 ![normal3](https://sun4-10.userapi.com/-oviM9--yIsQCufMCMVrhmeYkB6dlC7TvY5izQ/aKJfhF0OMq8.jpg "normal3")
 
-### Dot Product
+### Dot Product <a name="dot_product"></a>
 
 The dot product is the sum of the multiplication of the corresponding components or coordinate values.  
 In two vectors given the vectors V and W shown below **The dot product** is found by **multiplying both x values together both y values together and then adding the result.**
@@ -196,7 +214,7 @@ The relationship between the dot product and the angle between the vectors, and 
 
 ![dotprod6](https://sun4-16.userapi.com/5dxctG2pabtBky7XJrA86d2ow8YVg6qlKJY9hQ/i_xMlYXut6A.jpg "dotprod6")
 
-### Vector Rotations
+### Vector Rotations <a name="vector_rotations"></a>
 
 **To rotate** a vector about an angle the **x and y** components need to be manipulated with **sine and cosine** functions such that the **new x value of the vector becomes** the **original x** value **multiplied by the coastline of the Ange minus the original y value multiplied by the sine of the value** and **the y value becomes the original x value multiplied be the sine of the angle plus the original y value multiplied by the cosine of the angle**
 
@@ -206,7 +224,7 @@ If we apply its into our code, we'll get a wrong clockwise rotation, because we 
 
 ![rotate2](https://sun4-15.userapi.com/qXi52IqEX8RcHVlItf6BMXkrVmUp-HCMHQcpww/nL6aZJO6jig.jpg "rotate2")
 
-### Cross Product
+### Cross Product <a name="cross_product"></a>
 
 ![cross1](https://sun4-17.userapi.com/zJbNAcZdz-5TILA5vhotCzMtYPCOCTRSe1c4CA/hLJK-Ti3rpw.jpg "cross1")
 
@@ -218,7 +236,7 @@ Resulting vector is one that is perpendicular to the other two. Now the interest
 
 ![cross3](https://sun4-15.userapi.com/6DWOIvDN7IOfx_EaTn8YOVe219MTsktoxfbYiA/I_9ZNrpCl6U.jpg "cross3")
 
-### Moving from 2D to 3D
+### Moving from 2D to 3D <a name="from_2d_to_3d"></a>
 
 In 3D space all rules are same:
 
@@ -234,7 +252,7 @@ In 3D space all rules are same:
 
 ![3d6](https://sun4-15.userapi.com/URczifO4ab6t0tggEXW8yKP6vxVpNBWn2Ykujg/0hnorCquqAc.jpg "3d6")
 
-## 5. Intersections
+## 5. Intersections <a name="intersections"></a>
 
 ### Lines, Line Segments and Rays
 
